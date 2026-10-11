@@ -1,0 +1,1201 @@
+EmployeeID,Age,AgeGroup,Department,JobRole,Region,MonthlyIncome,OverTime,YearsAtCompany,JobSatisfaction,WorkLifeBalance,Attrition
+1,29,<30,Sales,Sales Executive,Europe,6650,No,2,2,2,No
+2,44,40-49,R&D,Engineer,Latin America,9020,No,5,4,3,No
+3,30,30-39,R&D,Lab Technician,Europe,1800,No,3,4,2,No
+4,30,30-39,Sales,Sales Rep,North America,4680,Yes,5,2,3,No
+5,25,<30,Sales,Sales Rep,Latin America,4530,No,0,1,1,Yes
+6,47,40-49,HR,HR Manager,Europe,7450,No,5,4,1,No
+7,54,50+,Sales,Sales Rep,North America,10300,No,14,2,3,No
+8,28,<30,Sales,Sales Executive,North America,1880,No,1,3,1,Yes
+9,39,30-39,HR,HR Manager,Latin America,7710,No,3,4,1,No
+10,45,40-49,R&D,Research Scientist,Europe,2370,No,15,1,1,Yes
+11,55,50+,R&D,Lab Technician,Europe,5800,Yes,13,3,4,Yes
+12,19,<30,R&D,Research Scientist,Asia-Pacific,3170,Yes,0,2,1,No
+13,37,30-39,R&D,Engineer,Asia-Pacific,5440,No,2,3,1,Yes
+14,42,40-49,Sales,Sales Executive,Latin America,5000,Yes,5,3,2,No
+15,23,<30,Sales,Sales Executive,Latin America,3550,No,0,1,1,Yes
+16,40,40-49,R&D,Engineer,Europe,5530,No,4,2,1,Yes
+17,38,30-39,R&D,Lab Technician,Latin America,5530,No,2,4,3,Yes
+18,43,40-49,R&D,Research Scientist,Asia-Pacific,1900,No,3,3,4,No
+19,31,30-39,R&D,Lab Technician,North America,1970,Yes,5,3,4,Yes
+20,40,40-49,R&D,Lab Technician,Europe,5280,No,4,1,1,No
+21,31,30-39,HR,HR Specialist,Europe,6970,No,6,1,4,No
+22,42,40-49,Sales,Sales Executive,North America,9190,No,1,4,1,No
+23,38,30-39,R&D,Research Scientist,North America,13630,No,4,4,3,No
+24,33,30-39,R&D,Engineer,Asia-Pacific,6060,No,3,1,1,No
+25,23,<30,R&D,Engineer,Latin America,2850,Yes,1,1,4,Yes
+26,51,50+,R&D,Lab Technician,North America,7870,Yes,11,2,1,No
+27,46,40-49,Sales,Sales Rep,North America,8720,No,9,1,4,Yes
+28,44,40-49,R&D,Research Scientist,Asia-Pacific,7130,No,6,4,2,Yes
+29,30,30-39,R&D,Research Scientist,Asia-Pacific,2770,No,2,2,1,Yes
+30,33,30-39,Sales,Sales Rep,Asia-Pacific,5520,No,6,1,2,Yes
+31,51,50+,R&D,Lab Technician,Latin America,7300,No,7,3,2,No
+32,43,40-49,Sales,Sales Executive,North America,3040,No,10,2,2,Yes
+33,28,<30,Sales,Sales Rep,Asia-Pacific,2210,No,3,1,1,Yes
+34,37,30-39,R&D,Engineer,Asia-Pacific,9250,No,3,4,4,No
+35,37,30-39,R&D,Lab Technician,Asia-Pacific,1800,No,8,1,3,No
+36,34,30-39,Sales,Sales Rep,North America,6310,No,5,3,3,No
+37,28,<30,R&D,Lab Technician,Europe,4660,No,3,1,2,No
+38,47,40-49,Sales,Sales Rep,Latin America,10640,No,2,1,1,No
+39,41,40-49,HR,HR Specialist,Latin America,8090,Yes,6,3,3,Yes
+40,34,30-39,Sales,Sales Executive,Europe,3640,Yes,5,1,1,Yes
+41,22,<30,Sales,Sales Executive,Asia-Pacific,8060,No,1,1,3,No
+42,31,30-39,Sales,Sales Rep,Asia-Pacific,4160,Yes,3,4,4,Yes
+43,36,30-39,Sales,Sales Rep,Asia-Pacific,11210,Yes,2,3,2,Yes
+44,44,40-49,R&D,Research Scientist,Asia-Pacific,11060,No,8,1,4,No
+45,33,30-39,HR,HR Specialist,Latin America,5580,No,6,2,1,No
+46,46,40-49,R&D,Lab Technician,Asia-Pacific,8960,No,10,1,1,No
+47,37,30-39,Sales,Sales Executive,North America,6630,Yes,4,2,1,No
+48,30,30-39,Sales,Sales Executive,North America,3190,No,2,1,4,Yes
+49,19,<30,Sales,Sales Executive,Latin America,7280,No,0,4,3,No
+50,26,<30,HR,HR Manager,Latin America,6270,No,1,1,3,Yes
+51,23,<30,R&D,Research Scientist,Europe,7100,No,0,2,1,No
+52,35,30-39,R&D,Research Scientist,Europe,8740,Yes,4,3,4,No
+53,39,30-39,Sales,Sales Rep,Europe,10000,Yes,5,4,3,No
+54,49,40-49,Sales,Sales Executive,Latin America,9920,Yes,10,2,3,No
+55,36,30-39,R&D,Engineer,North America,5850,No,8,3,4,No
+56,26,<30,R&D,Lab Technician,Europe,5410,No,1,1,2,No
+57,57,50+,Sales,Sales Executive,Asia-Pacific,9040,No,16,1,1,Yes
+58,39,30-39,Sales,Sales Executive,Europe,6040,Yes,3,3,4,No
+59,34,30-39,Sales,Sales Rep,Asia-Pacific,5300,Yes,3,3,1,Yes
+60,34,30-39,Sales,Sales Rep,Asia-Pacific,10710,No,7,3,1,No
+61,24,<30,Sales,Sales Rep,Latin America,6270,No,2,2,4,No
+62,42,40-49,R&D,Engineer,Europe,11520,Yes,10,3,4,No
+63,40,40-49,R&D,Engineer,Asia-Pacific,4470,No,10,2,4,No
+64,51,50+,Sales,Sales Rep,Latin America,7340,No,17,3,1,Yes
+65,46,40-49,R&D,Engineer,Latin America,5870,No,15,1,4,No
+66,44,40-49,Sales,Sales Executive,Europe,5810,No,11,3,3,No
+67,48,40-49,Sales,Sales Executive,North America,6430,No,16,4,4,No
+68,34,30-39,R&D,Research Scientist,Asia-Pacific,5600,No,3,1,2,No
+69,32,30-39,R&D,Lab Technician,Asia-Pacific,4620,Yes,4,4,1,No
+70,36,30-39,Sales,Sales Executive,Asia-Pacific,10750,No,2,1,3,No
+71,25,<30,R&D,Research Scientist,Asia-Pacific,6850,Yes,1,4,2,No
+72,35,30-39,Sales,Sales Executive,Latin America,4090,No,4,2,4,No
+73,33,30-39,Sales,Sales Executive,Latin America,4430,Yes,3,1,4,Yes
+74,42,40-49,Sales,Sales Rep,Europe,8560,Yes,9,1,3,No
+75,36,30-39,Sales,Sales Rep,North America,7500,No,4,4,2,No
+76,19,<30,R&D,Engineer,Europe,3000,Yes,0,2,2,No
+77,37,30-39,R&D,Research Scientist,North America,8570,No,5,4,3,No
+78,49,40-49,R&D,Research Scientist,Latin America,3590,Yes,7,4,3,No
+79,20,<30,Sales,Sales Executive,Latin America,3450,No,0,2,2,Yes
+80,30,30-39,Sales,Sales Rep,Asia-Pacific,10010,No,4,1,2,No
+81,37,30-39,Sales,Sales Executive,Asia-Pacific,1800,No,10,3,3,No
+82,25,<30,HR,HR Manager,Europe,4590,No,3,3,1,Yes
+83,32,30-39,HR,HR Manager,Latin America,8290,No,4,2,3,No
+84,37,30-39,Sales,Sales Executive,Asia-Pacific,5820,Yes,3,3,1,No
+85,25,<30,R&D,Lab Technician,Latin America,3100,Yes,2,3,1,Yes
+86,39,30-39,Sales,Sales Executive,Europe,4080,No,4,4,2,No
+87,40,40-49,R&D,Lab Technician,North America,1800,Yes,7,2,4,Yes
+88,25,<30,Sales,Sales Executive,Latin America,1800,No,2,3,4,Yes
+89,37,30-39,Sales,Sales Executive,Latin America,6370,No,8,2,4,No
+90,46,40-49,R&D,Engineer,Latin America,5540,No,8,3,2,No
+91,35,30-39,Sales,Sales Rep,North America,5980,No,3,2,3,No
+92,40,40-49,R&D,Research Scientist,Asia-Pacific,6080,No,1,4,3,No
+93,42,40-49,R&D,Research Scientist,Asia-Pacific,7380,No,11,1,2,Yes
+94,34,30-39,R&D,Research Scientist,Europe,1800,Yes,7,3,2,Yes
+95,45,40-49,R&D,Lab Technician,Asia-Pacific,6120,Yes,10,4,4,Yes
+96,40,40-49,R&D,Lab Technician,Latin America,5590,No,10,1,4,No
+97,28,<30,R&D,Research Scientist,Asia-Pacific,4580,No,1,3,2,Yes
+98,41,40-49,HR,HR Specialist,Latin America,4270,Yes,9,4,3,Yes
+99,44,40-49,Sales,Sales Rep,Europe,1800,No,5,4,1,No
+100,44,40-49,R&D,Engineer,Latin America,8450,No,12,2,2,No
+101,31,30-39,Sales,Sales Executive,Asia-Pacific,7750,No,3,4,4,No
+102,41,40-49,R&D,Lab Technician,Latin America,12660,No,7,1,1,No
+103,49,40-49,R&D,Engineer,Latin America,9160,No,7,4,4,No
+104,39,30-39,R&D,Engineer,North America,10600,No,5,4,4,No
+105,47,40-49,R&D,Engineer,Latin America,8630,Yes,14,2,3,No
+106,48,40-49,Sales,Sales Rep,Asia-Pacific,6210,No,16,3,1,No
+107,36,30-39,R&D,Lab Technician,Europe,7380,No,3,2,1,Yes
+108,43,40-49,Sales,Sales Rep,Latin America,3730,No,11,2,4,Yes
+109,34,30-39,HR,HR Specialist,Latin America,6550,No,8,1,1,No
+110,46,40-49,Sales,Sales Executive,Europe,6730,No,9,3,1,No
+111,36,30-39,Sales,Sales Rep,Europe,3390,No,6,2,2,No
+112,32,30-39,R&D,Lab Technician,North America,8890,No,6,2,4,No
+113,37,30-39,Sales,Sales Rep,Europe,9080,Yes,7,4,4,No
+114,36,30-39,R&D,Engineer,Asia-Pacific,7300,No,6,3,3,No
+115,40,40-49,R&D,Lab Technician,Latin America,8570,No,11,4,2,No
+116,41,40-49,Sales,Sales Executive,North America,10800,Yes,8,4,1,No
+117,26,<30,R&D,Lab Technician,Latin America,4870,No,3,2,2,No
+118,31,30-39,Sales,Sales Executive,North America,2180,No,6,1,2,Yes
+119,40,40-49,R&D,Research Scientist,North America,4020,No,4,4,4,No
+120,41,40-49,Sales,Sales Rep,Latin America,8360,No,11,4,3,No
+121,38,30-39,Sales,Sales Rep,North America,6890,Yes,3,1,3,No
+122,60,50+,Sales,Sales Executive,Latin America,4450,No,14,4,1,Yes
+123,47,40-49,R&D,Lab Technician,Asia-Pacific,10510,No,11,4,2,No
+124,36,30-39,R&D,Lab Technician,Asia-Pacific,6670,No,8,4,1,Yes
+125,43,40-49,Sales,Sales Rep,Latin America,10900,No,5,3,3,No
+126,49,40-49,R&D,Lab Technician,Asia-Pacific,10200,No,17,4,1,No
+127,40,40-49,R&D,Lab Technician,Latin America,5360,No,9,3,2,No
+128,21,<30,Sales,Sales Rep,Asia-Pacific,5020,No,1,2,1,Yes
+129,38,30-39,Sales,Sales Rep,Latin America,4410,No,3,3,2,Yes
+130,37,30-39,R&D,Engineer,Europe,4050,No,6,1,4,No
+131,56,50+,HR,HR Specialist,Europe,7160,Yes,11,2,3,No
+132,20,<30,Sales,Sales Executive,North America,5980,Yes,0,2,1,Yes
+133,51,50+,Sales,Sales Executive,Latin America,11010,No,15,3,1,No
+134,36,30-39,R&D,Engineer,Europe,3840,No,2,1,3,No
+135,45,40-49,HR,HR Manager,Latin America,8750,No,14,1,2,Yes
+136,34,30-39,HR,HR Specialist,Asia-Pacific,6060,No,3,3,1,Yes
+137,39,30-39,R&D,Engineer,Europe,5850,Yes,6,3,1,No
+138,47,40-49,Sales,Sales Rep,Asia-Pacific,10050,No,2,1,2,No
+139,38,30-39,R&D,Engineer,North America,5420,No,6,1,1,No
+140,47,40-49,R&D,Lab Technician,Europe,10700,No,15,4,4,No
+141,36,30-39,Sales,Sales Rep,Asia-Pacific,5300,Yes,5,2,4,Yes
+142,33,30-39,R&D,Engineer,North America,3510,No,1,4,1,Yes
+143,35,30-39,Sales,Sales Rep,North America,8050,Yes,8,2,2,No
+144,33,30-39,R&D,Lab Technician,Europe,2140,No,4,2,1,No
+145,36,30-39,R&D,Research Scientist,Latin America,3110,No,2,3,4,No
+146,49,40-49,R&D,Engineer,North America,6860,Yes,13,3,4,No
+147,27,<30,R&D,Engineer,Latin America,5370,No,1,2,1,No
+148,22,<30,Sales,Sales Rep,Latin America,4220,Yes,1,2,3,Yes
+149,37,30-39,R&D,Research Scientist,North America,1800,No,5,4,4,No
+150,52,50+,Sales,Sales Rep,North America,4170,Yes,6,4,2,No
+151,47,40-49,Sales,Sales Executive,Asia-Pacific,8490,No,8,4,2,No
+152,49,40-49,R&D,Engineer,Europe,8750,No,6,4,4,No
+153,48,40-49,R&D,Engineer,Europe,4660,Yes,9,4,4,No
+154,31,30-39,Sales,Sales Rep,Asia-Pacific,6420,No,4,3,2,No
+155,38,30-39,R&D,Lab Technician,Asia-Pacific,6900,No,6,2,1,No
+156,19,<30,R&D,Research Scientist,Europe,7280,No,0,3,4,No
+157,32,30-39,Sales,Sales Rep,Europe,3940,No,4,2,3,Yes
+158,43,40-49,R&D,Lab Technician,Europe,10590,No,13,1,2,No
+159,23,<30,R&D,Engineer,North America,4240,Yes,2,1,1,No
+160,19,<30,R&D,Engineer,Asia-Pacific,8390,Yes,0,4,2,Yes
+161,25,<30,Sales,Sales Executive,Asia-Pacific,7600,No,2,1,1,No
+162,39,30-39,R&D,Engineer,North America,3850,Yes,3,1,3,Yes
+163,48,40-49,R&D,Research Scientist,Latin America,6470,No,12,4,4,No
+164,60,50+,R&D,Engineer,Latin America,9100,No,6,4,2,No
+165,50,50+,R&D,Research Scientist,Asia-Pacific,10090,No,3,4,2,No
+166,24,<30,R&D,Lab Technician,Asia-Pacific,1800,Yes,2,2,1,Yes
+167,19,<30,Sales,Sales Rep,Latin America,3380,No,0,2,1,No
+168,39,30-39,HR,HR Specialist,North America,8080,No,6,4,2,No
+169,47,40-49,Sales,Sales Executive,Europe,8430,No,2,3,1,No
+170,23,<30,Sales,Sales Rep,Latin America,2310,No,1,2,4,Yes
+171,33,30-39,R&D,Research Scientist,Latin America,3610,No,1,1,4,No
+172,33,30-39,Sales,Sales Executive,North America,7040,Yes,7,2,2,No
+173,38,30-39,Sales,Sales Executive,North America,3730,No,2,4,1,No
+174,36,30-39,R&D,Lab Technician,Asia-Pacific,6800,No,9,3,3,No
+175,42,40-49,R&D,Engineer,Asia-Pacific,9110,Yes,2,2,2,No
+176,47,40-49,R&D,Research Scientist,Europe,7230,Yes,4,3,3,No
+177,38,30-39,HR,HR Specialist,North America,1800,Yes,8,1,2,Yes
+178,44,40-49,R&D,Lab Technician,Europe,9950,No,10,3,4,No
+179,55,50+,Sales,Sales Rep,Asia-Pacific,10890,No,3,1,1,Yes
+180,28,<30,R&D,Lab Technician,Europe,9150,No,2,1,2,No
+181,28,<30,Sales,Sales Rep,Latin America,7700,No,1,2,4,Yes
+182,42,40-49,R&D,Research Scientist,Europe,2380,No,5,1,3,No
+183,54,50+,R&D,Lab Technician,Latin America,11480,No,8,3,1,No
+184,39,30-39,Sales,Sales Executive,Europe,7360,No,7,2,2,No
+185,47,40-49,R&D,Lab Technician,Latin America,9620,Yes,12,4,2,No
+186,35,30-39,R&D,Engineer,North America,5700,Yes,1,2,2,No
+187,46,40-49,R&D,Research Scientist,Europe,6470,No,11,1,3,No
+188,32,30-39,R&D,Engineer,Europe,5230,Yes,7,3,1,Yes
+189,44,40-49,R&D,Lab Technician,Latin America,11050,Yes,6,4,1,No
+190,41,40-49,R&D,Research Scientist,Europe,7360,No,9,4,4,No
+191,41,40-49,R&D,Research Scientist,Europe,6120,No,6,4,3,No
+192,50,50+,Sales,Sales Executive,Asia-Pacific,4140,No,6,3,1,Yes
+193,47,40-49,R&D,Engineer,North America,8410,Yes,9,1,2,No
+194,32,30-39,R&D,Engineer,North America,5870,No,1,3,2,No
+195,46,40-49,R&D,Research Scientist,Asia-Pacific,7500,No,11,1,1,No
+196,22,<30,R&D,Research Scientist,North America,7500,No,1,1,3,Yes
+197,47,40-49,R&D,Engineer,Europe,9070,Yes,5,1,2,No
+198,60,50+,R&D,Research Scientist,Latin America,8370,Yes,3,2,2,No
+199,43,40-49,Sales,Sales Executive,Latin America,7390,No,13,3,3,Yes
+200,42,40-49,R&D,Engineer,North America,6980,No,9,4,3,No
+201,38,30-39,R&D,Lab Technician,Latin America,8240,No,1,3,1,Yes
+202,45,40-49,Sales,Sales Executive,Asia-Pacific,8800,No,12,4,4,Yes
+203,34,30-39,R&D,Research Scientist,Asia-Pacific,6390,No,2,1,3,No
+204,44,40-49,R&D,Engineer,Asia-Pacific,4700,No,7,1,3,Yes
+205,36,30-39,R&D,Research Scientist,North America,8390,No,2,3,1,No
+206,34,30-39,R&D,Lab Technician,Latin America,8350,No,8,3,2,No
+207,39,30-39,Sales,Sales Rep,Asia-Pacific,3700,No,8,4,3,Yes
+208,38,30-39,R&D,Lab Technician,North America,7390,No,8,4,4,No
+209,22,<30,R&D,Lab Technician,Latin America,3940,Yes,0,1,1,Yes
+210,57,50+,R&D,Lab Technician,Latin America,2420,No,8,4,4,Yes
+211,39,30-39,R&D,Lab Technician,Asia-Pacific,6350,Yes,2,4,2,No
+212,23,<30,Sales,Sales Rep,North America,7480,No,2,2,4,No
+213,48,40-49,R&D,Engineer,North America,5380,Yes,3,3,1,Yes
+214,38,30-39,R&D,Research Scientist,North America,4540,No,7,2,1,Yes
+215,40,40-49,Sales,Sales Rep,Latin America,9190,Yes,3,1,1,Yes
+216,44,40-49,Sales,Sales Rep,Asia-Pacific,4050,No,2,1,2,No
+217,30,30-39,Sales,Sales Rep,Europe,3200,No,1,1,2,No
+218,19,<30,R&D,Lab Technician,North America,3820,No,0,2,4,No
+219,37,30-39,HR,HR Specialist,Europe,7880,No,2,2,3,No
+220,40,40-49,Sales,Sales Rep,Asia-Pacific,8160,No,10,1,3,No
+221,47,40-49,HR,HR Manager,Europe,5800,No,10,2,3,No
+222,31,30-39,R&D,Research Scientist,Asia-Pacific,4920,No,2,3,1,Yes
+223,36,30-39,Sales,Sales Executive,Asia-Pacific,6400,No,1,1,2,No
+224,42,40-49,R&D,Research Scientist,North America,5700,No,7,1,2,Yes
+225,35,30-39,Sales,Sales Executive,Latin America,3840,Yes,8,4,2,Yes
+226,36,30-39,R&D,Engineer,Latin America,3340,No,3,4,2,No
+227,40,40-49,R&D,Research Scientist,Asia-Pacific,8380,No,7,4,1,No
+228,29,<30,Sales,Sales Rep,Europe,4970,No,2,1,3,No
+229,52,50+,Sales,Sales Executive,North America,15030,No,19,1,4,No
+230,30,30-39,R&D,Research Scientist,Latin America,7250,No,2,1,2,No
+231,38,30-39,R&D,Research Scientist,Latin America,4400,Yes,3,3,1,No
+232,35,30-39,R&D,Engineer,North America,6080,No,6,4,4,No
+233,32,30-39,R&D,Research Scientist,North America,6690,Yes,2,2,2,Yes
+234,43,40-49,R&D,Research Scientist,North America,7830,No,12,3,2,Yes
+235,47,40-49,HR,HR Manager,Asia-Pacific,8310,No,13,1,4,No
+236,51,50+,Sales,Sales Rep,Asia-Pacific,8690,No,13,3,2,Yes
+237,43,40-49,Sales,Sales Rep,Latin America,6440,Yes,13,3,3,No
+238,34,30-39,R&D,Lab Technician,Europe,7670,No,4,3,1,No
+239,46,40-49,R&D,Lab Technician,North America,12730,Yes,2,1,1,Yes
+240,25,<30,Sales,Sales Executive,Europe,4040,No,1,1,1,Yes
+241,39,30-39,Sales,Sales Rep,Latin America,5450,Yes,4,2,4,No
+242,43,40-49,Sales,Sales Rep,Latin America,8630,No,3,1,1,No
+243,43,40-49,R&D,Lab Technician,Asia-Pacific,10030,Yes,6,4,4,No
+244,28,<30,R&D,Lab Technician,Europe,7570,No,1,2,2,No
+245,25,<30,R&D,Engineer,Asia-Pacific,8330,No,0,4,3,No
+246,53,50+,Sales,Sales Executive,North America,7570,No,11,2,1,No
+247,33,30-39,Sales,Sales Rep,Latin America,5300,Yes,2,2,2,Yes
+248,23,<30,R&D,Engineer,North America,6690,No,2,3,2,No
+249,27,<30,R&D,Engineer,Europe,7100,No,1,1,2,No
+250,38,30-39,HR,HR Specialist,Asia-Pacific,10680,Yes,2,3,4,No
+251,49,40-49,R&D,Engineer,Europe,11370,No,11,1,2,No
+252,38,30-39,R&D,Lab Technician,Latin America,1800,Yes,9,3,2,Yes
+253,49,40-49,HR,HR Manager,Europe,9350,Yes,14,1,1,No
+254,40,40-49,R&D,Engineer,Latin America,4790,No,10,2,4,No
+255,42,40-49,R&D,Research Scientist,Asia-Pacific,1800,Yes,7,3,2,No
+256,47,40-49,R&D,Engineer,Europe,8170,No,5,4,2,No
+257,34,30-39,Sales,Sales Rep,Europe,5540,No,1,1,3,No
+258,41,40-49,R&D,Research Scientist,North America,5710,No,12,3,3,No
+259,34,30-39,Sales,Sales Rep,Europe,2650,No,5,1,3,No
+260,32,30-39,R&D,Lab Technician,North America,3160,No,7,1,4,No
+261,44,40-49,R&D,Lab Technician,North America,6320,No,12,4,4,No
+262,30,30-39,HR,HR Specialist,North America,1800,Yes,4,3,2,Yes
+263,39,30-39,R&D,Lab Technician,Latin America,6140,No,9,2,2,No
+264,31,30-39,Sales,Sales Rep,North America,5990,Yes,2,2,2,No
+265,37,30-39,HR,HR Manager,North America,5840,No,9,2,4,No
+266,33,30-39,R&D,Lab Technician,Latin America,6650,No,7,2,2,No
+267,48,40-49,HR,HR Manager,North America,7040,No,9,4,1,No
+268,38,30-39,R&D,Lab Technician,Europe,3310,No,5,1,3,Yes
+269,38,30-39,R&D,Research Scientist,Latin America,3640,No,6,4,4,No
+270,53,50+,R&D,Lab Technician,North America,8010,No,12,3,2,No
+271,19,<30,Sales,Sales Executive,Europe,7100,No,0,4,1,Yes
+272,28,<30,Sales,Sales Executive,Asia-Pacific,5800,No,5,1,3,Yes
+273,19,<30,R&D,Lab Technician,Latin America,3300,No,0,4,4,No
+274,37,30-39,Sales,Sales Rep,Europe,6650,Yes,1,1,1,Yes
+275,41,40-49,R&D,Engineer,North America,1890,No,8,4,3,No
+276,43,40-49,R&D,Lab Technician,North America,4180,No,3,3,1,No
+277,40,40-49,R&D,Lab Technician,Latin America,5510,Yes,12,4,4,No
+278,30,30-39,HR,HR Manager,Latin America,5420,Yes,6,4,1,Yes
+279,53,50+,Sales,Sales Executive,North America,6810,No,15,3,1,No
+280,40,40-49,R&D,Research Scientist,Latin America,5780,No,2,4,1,No
+281,35,30-39,Sales,Sales Executive,Asia-Pacific,2950,No,8,1,2,No
+282,27,<30,HR,HR Specialist,Europe,3820,Yes,1,1,2,No
+283,41,40-49,R&D,Lab Technician,Europe,7210,No,8,1,2,No
+284,33,30-39,Sales,Sales Executive,Latin America,1800,No,2,1,4,No
+285,33,30-39,Sales,Sales Executive,North America,2730,Yes,6,4,2,No
+286,39,30-39,R&D,Lab Technician,Europe,5480,No,8,3,2,No
+287,39,30-39,R&D,Lab Technician,Europe,10220,No,5,3,2,No
+288,30,30-39,Sales,Sales Rep,Asia-Pacific,7320,No,2,4,1,No
+289,49,40-49,Sales,Sales Rep,Latin America,11330,No,15,4,3,No
+290,28,<30,R&D,Research Scientist,Asia-Pacific,8870,Yes,5,1,1,Yes
+291,27,<30,R&D,Engineer,Latin America,4140,Yes,1,3,4,Yes
+292,40,40-49,R&D,Engineer,Asia-Pacific,6290,No,12,2,4,No
+293,38,30-39,HR,HR Specialist,Europe,3250,No,7,3,2,No
+294,38,30-39,HR,HR Specialist,Europe,9340,No,4,4,2,No
+295,34,30-39,HR,HR Specialist,North America,7820,No,4,1,4,No
+296,38,30-39,R&D,Research Scientist,North America,7820,No,2,3,1,No
+297,32,30-39,R&D,Engineer,Europe,7470,Yes,4,2,4,No
+298,22,<30,R&D,Engineer,Latin America,6040,No,1,3,3,No
+299,44,40-49,R&D,Lab Technician,Asia-Pacific,7370,Yes,8,3,4,No
+300,28,<30,R&D,Research Scientist,Europe,6110,Yes,1,3,4,No
+301,35,30-39,Sales,Sales Executive,Latin America,9160,Yes,7,4,2,No
+302,44,40-49,R&D,Research Scientist,Europe,4790,No,8,1,4,Yes
+303,37,30-39,Sales,Sales Executive,Europe,3490,Yes,2,1,2,Yes
+304,60,50+,Sales,Sales Executive,Latin America,8280,Yes,20,2,4,Yes
+305,25,<30,R&D,Lab Technician,Europe,8130,No,2,4,3,No
+306,30,30-39,R&D,Lab Technician,Asia-Pacific,6200,Yes,1,1,1,No
+307,38,30-39,R&D,Research Scientist,North America,5760,No,5,4,4,No
+308,49,40-49,R&D,Research Scientist,Latin America,9440,No,14,3,3,No
+309,35,30-39,R&D,Engineer,Europe,6310,Yes,6,4,1,Yes
+310,24,<30,Sales,Sales Executive,Europe,1800,Yes,1,3,3,Yes
+311,47,40-49,Sales,Sales Rep,Latin America,4500,No,13,4,4,No
+312,29,<30,R&D,Research Scientist,Asia-Pacific,1800,No,3,3,2,Yes
+313,35,30-39,R&D,Engineer,Europe,5460,No,2,2,2,No
+314,45,40-49,R&D,Lab Technician,North America,5770,No,3,4,1,Yes
+315,31,30-39,R&D,Lab Technician,Asia-Pacific,6810,Yes,6,4,2,No
+316,33,30-39,R&D,Engineer,North America,11320,No,3,1,1,Yes
+317,42,40-49,Sales,Sales Rep,Asia-Pacific,5110,Yes,8,3,2,No
+318,35,30-39,Sales,Sales Executive,Europe,6050,No,3,2,4,No
+319,40,40-49,R&D,Engineer,Asia-Pacific,5490,No,5,3,1,No
+320,29,<30,Sales,Sales Rep,Europe,1800,No,2,1,2,Yes
+321,36,30-39,Sales,Sales Executive,Latin America,4150,No,1,4,4,No
+322,27,<30,Sales,Sales Executive,Europe,3450,No,0,1,3,Yes
+323,23,<30,R&D,Lab Technician,Europe,5660,No,0,2,2,Yes
+324,53,50+,Sales,Sales Executive,North America,5480,Yes,15,1,3,No
+325,41,40-49,R&D,Research Scientist,Europe,3230,Yes,4,2,1,No
+326,45,40-49,R&D,Research Scientist,Latin America,8460,No,7,2,3,No
+327,28,<30,R&D,Engineer,North America,5240,No,3,2,2,Yes
+328,37,30-39,Sales,Sales Executive,Europe,3900,Yes,6,4,3,Yes
+329,35,30-39,R&D,Lab Technician,Europe,4070,No,8,1,3,Yes
+330,24,<30,Sales,Sales Executive,Europe,4270,No,2,4,2,Yes
+331,42,40-49,R&D,Research Scientist,North America,8790,No,12,2,2,No
+332,31,30-39,Sales,Sales Rep,Latin America,9360,No,2,2,1,No
+333,35,30-39,R&D,Lab Technician,Latin America,2650,Yes,9,3,2,Yes
+334,23,<30,Sales,Sales Executive,Latin America,7980,Yes,2,3,3,No
+335,46,40-49,R&D,Lab Technician,Latin America,7170,No,11,1,3,No
+336,44,40-49,R&D,Research Scientist,Latin America,7780,No,12,2,2,Yes
+337,41,40-49,R&D,Engineer,North America,9090,Yes,3,2,3,Yes
+338,29,<30,HR,HR Specialist,Latin America,3000,Yes,5,1,3,No
+339,32,30-39,R&D,Lab Technician,Latin America,7990,No,2,3,4,No
+340,48,40-49,R&D,Engineer,Asia-Pacific,3830,No,14,2,3,No
+341,35,30-39,R&D,Research Scientist,Europe,4830,No,1,1,1,No
+342,39,30-39,Sales,Sales Executive,Europe,4200,No,9,4,3,No
+343,38,30-39,R&D,Research Scientist,Latin America,10680,Yes,7,1,4,No
+344,27,<30,R&D,Research Scientist,Latin America,9570,No,2,4,3,Yes
+345,51,50+,HR,HR Specialist,North America,9440,No,6,4,3,No
+346,19,<30,R&D,Engineer,North America,5940,Yes,0,4,3,No
+347,39,30-39,HR,HR Manager,North America,5030,No,4,3,2,No
+348,36,30-39,Sales,Sales Executive,Latin America,10640,No,4,4,2,No
+349,22,<30,Sales,Sales Rep,Asia-Pacific,8490,No,1,4,2,No
+350,40,40-49,Sales,Sales Rep,Europe,8830,No,5,4,4,No
+351,42,40-49,R&D,Research Scientist,Europe,6390,No,12,1,3,Yes
+352,38,30-39,R&D,Research Scientist,Europe,5420,Yes,5,1,4,Yes
+353,30,30-39,R&D,Lab Technician,Latin America,5390,No,5,1,4,No
+354,41,40-49,R&D,Research Scientist,Europe,10040,Yes,9,1,4,No
+355,47,40-49,R&D,Research Scientist,North America,4700,No,14,1,3,No
+356,39,30-39,Sales,Sales Executive,Europe,6730,No,9,2,1,No
+357,53,50+,R&D,Lab Technician,North America,11910,Yes,13,2,2,No
+358,45,40-49,Sales,Sales Rep,Latin America,9260,No,13,1,4,No
+359,44,40-49,Sales,Sales Executive,Asia-Pacific,11390,Yes,10,4,1,No
+360,50,50+,R&D,Lab Technician,Latin America,8500,Yes,15,1,3,Yes
+361,31,30-39,R&D,Lab Technician,Asia-Pacific,6830,No,5,1,1,No
+362,32,30-39,R&D,Research Scientist,Asia-Pacific,9390,Yes,4,1,2,Yes
+363,42,40-49,Sales,Sales Rep,North America,8410,No,5,3,4,No
+364,42,40-49,R&D,Engineer,North America,7610,No,5,3,4,No
+365,51,50+,Sales,Sales Executive,Latin America,6220,No,16,2,2,No
+366,47,40-49,Sales,Sales Rep,Europe,3350,No,5,4,4,No
+367,39,30-39,Sales,Sales Rep,Europe,10310,No,4,2,1,No
+368,39,30-39,Sales,Sales Executive,North America,5390,No,11,3,4,No
+369,35,30-39,R&D,Engineer,North America,4190,No,6,1,4,No
+370,34,30-39,Sales,Sales Rep,Asia-Pacific,8260,No,3,3,1,No
+371,33,30-39,HR,HR Manager,North America,3650,No,6,4,1,No
+372,45,40-49,Sales,Sales Rep,North America,3530,No,7,2,4,No
+373,33,30-39,Sales,Sales Rep,Europe,4470,No,1,2,2,Yes
+374,34,30-39,R&D,Research Scientist,Europe,5880,No,8,4,1,Yes
+375,39,30-39,Sales,Sales Rep,Latin America,7190,No,1,1,3,Yes
+376,33,30-39,R&D,Research Scientist,North America,7270,No,7,3,3,No
+377,35,30-39,Sales,Sales Executive,Latin America,8630,No,4,3,2,No
+378,19,<30,R&D,Research Scientist,Latin America,4390,No,0,4,4,No
+379,41,40-49,Sales,Sales Rep,Europe,7620,No,7,3,2,Yes
+380,34,30-39,Sales,Sales Executive,Latin America,5760,Yes,4,1,1,Yes
+381,39,30-39,HR,HR Specialist,Asia-Pacific,4850,Yes,10,1,2,No
+382,41,40-49,Sales,Sales Rep,Europe,7720,Yes,5,2,3,No
+383,21,<30,Sales,Sales Executive,Asia-Pacific,5790,Yes,1,2,2,Yes
+384,59,50+,R&D,Lab Technician,Latin America,13080,No,14,3,2,No
+385,39,30-39,R&D,Engineer,North America,8050,Yes,10,1,4,Yes
+386,39,30-39,Sales,Sales Executive,North America,4710,Yes,3,2,1,Yes
+387,21,<30,R&D,Engineer,Latin America,6420,No,0,2,4,No
+388,43,40-49,R&D,Lab Technician,Asia-Pacific,6220,No,5,2,4,No
+389,41,40-49,R&D,Research Scientist,Europe,10750,No,11,3,1,No
+390,35,30-39,R&D,Research Scientist,Europe,1800,No,4,2,4,No
+391,40,40-49,Sales,Sales Executive,North America,4900,Yes,10,2,2,Yes
+392,50,50+,Sales,Sales Executive,Europe,5800,Yes,13,4,4,Yes
+393,35,30-39,R&D,Lab Technician,Latin America,6460,Yes,2,1,3,No
+394,30,30-39,R&D,Lab Technician,Asia-Pacific,5370,No,3,1,1,No
+395,50,50+,R&D,Lab Technician,Asia-Pacific,3410,No,4,3,4,No
+396,41,40-49,R&D,Engineer,Europe,1900,No,7,3,1,No
+397,37,30-39,R&D,Engineer,Europe,6800,Yes,2,3,2,No
+398,59,50+,Sales,Sales Rep,North America,12080,No,16,1,1,Yes
+399,40,40-49,R&D,Engineer,Latin America,10340,Yes,6,2,2,Yes
+400,37,30-39,R&D,Engineer,Asia-Pacific,5310,No,6,3,1,No
+401,41,40-49,R&D,Lab Technician,Europe,7870,Yes,6,4,4,No
+402,35,30-39,R&D,Lab Technician,Latin America,3930,No,5,3,2,No
+403,40,40-49,R&D,Lab Technician,Asia-Pacific,2890,No,6,3,3,No
+404,40,40-49,Sales,Sales Rep,Latin America,9750,No,4,1,4,No
+405,32,30-39,R&D,Engineer,North America,7620,Yes,7,1,1,Yes
+406,36,30-39,R&D,Lab Technician,Europe,5390,No,5,3,4,No
+407,41,40-49,R&D,Engineer,Asia-Pacific,5740,No,3,1,2,No
+408,42,40-49,HR,HR Specialist,Europe,9140,No,5,1,1,Yes
+409,43,40-49,R&D,Research Scientist,Asia-Pacific,7700,No,11,3,1,No
+410,45,40-49,R&D,Engineer,North America,6200,Yes,9,3,2,No
+411,40,40-49,R&D,Lab Technician,North America,7330,No,6,1,1,No
+412,43,40-49,HR,HR Specialist,North America,6860,No,8,3,2,No
+413,35,30-39,R&D,Research Scientist,Asia-Pacific,5120,No,7,3,3,Yes
+414,36,30-39,R&D,Research Scientist,North America,4410,No,9,2,4,No
+415,48,40-49,Sales,Sales Rep,North America,9710,No,4,1,1,Yes
+416,20,<30,R&D,Engineer,North America,3600,No,0,1,2,Yes
+417,41,40-49,R&D,Lab Technician,Latin America,3680,Yes,6,2,2,Yes
+418,60,50+,R&D,Engineer,Asia-Pacific,13050,No,16,2,4,No
+419,21,<30,R&D,Engineer,Europe,8100,No,0,3,4,No
+420,52,50+,Sales,Sales Executive,North America,9040,Yes,10,1,1,No
+421,22,<30,R&D,Lab Technician,Latin America,4830,No,1,1,4,Yes
+422,41,40-49,R&D,Lab Technician,Asia-Pacific,7210,No,10,3,1,No
+423,52,50+,Sales,Sales Rep,Asia-Pacific,3980,No,10,1,3,Yes
+424,51,50+,R&D,Research Scientist,Europe,7560,No,15,3,3,No
+425,30,30-39,R&D,Engineer,Europe,6420,No,1,3,1,No
+426,26,<30,HR,HR Manager,North America,4840,No,0,4,3,Yes
+427,25,<30,Sales,Sales Rep,Asia-Pacific,6370,Yes,1,1,2,Yes
+428,44,40-49,R&D,Lab Technician,Europe,5010,No,4,1,3,Yes
+429,34,30-39,Sales,Sales Executive,Latin America,6530,No,3,4,2,No
+430,38,30-39,R&D,Research Scientist,Europe,2410,Yes,5,2,1,Yes
+431,40,40-49,R&D,Lab Technician,Latin America,6530,Yes,8,1,4,No
+432,41,40-49,R&D,Engineer,Europe,5110,No,11,4,4,No
+433,42,40-49,Sales,Sales Rep,Asia-Pacific,3380,No,13,4,2,Yes
+434,39,30-39,R&D,Research Scientist,North America,5480,Yes,8,3,4,No
+435,23,<30,R&D,Engineer,North America,5110,No,2,3,3,Yes
+436,51,50+,R&D,Engineer,Asia-Pacific,6050,No,10,2,1,No
+437,19,<30,R&D,Lab Technician,Asia-Pacific,7060,No,0,1,2,No
+438,49,40-49,R&D,Engineer,Latin America,5610,No,16,2,3,No
+439,32,30-39,Sales,Sales Executive,Latin America,8250,No,5,1,1,No
+440,36,30-39,Sales,Sales Executive,North America,8080,No,4,3,2,No
+441,33,30-39,HR,HR Specialist,North America,4400,No,6,2,1,Yes
+442,34,30-39,Sales,Sales Executive,North America,9690,No,7,4,1,No
+443,37,30-39,R&D,Engineer,Europe,2820,Yes,10,4,1,Yes
+444,35,30-39,R&D,Lab Technician,Asia-Pacific,7480,Yes,8,1,4,No
+445,27,<30,HR,HR Manager,North America,5560,No,3,3,2,No
+446,45,40-49,Sales,Sales Rep,Europe,8960,No,4,2,3,No
+447,32,30-39,HR,HR Specialist,Europe,1840,No,1,1,3,No
+448,49,40-49,R&D,Research Scientist,Europe,4330,No,5,1,1,Yes
+449,36,30-39,R&D,Engineer,North America,4070,Yes,7,4,2,No
+450,31,30-39,R&D,Lab Technician,Latin America,5790,No,1,1,2,Yes
+451,41,40-49,R&D,Lab Technician,North America,6850,No,9,3,3,Yes
+452,45,40-49,R&D,Research Scientist,Europe,7030,No,5,2,2,No
+453,29,<30,R&D,Research Scientist,North America,4880,No,1,4,2,No
+454,35,30-39,Sales,Sales Executive,Latin America,4280,No,8,1,4,Yes
+455,50,50+,Sales,Sales Rep,Asia-Pacific,3930,Yes,4,1,4,Yes
+456,28,<30,R&D,Lab Technician,Asia-Pacific,4350,Yes,4,1,2,No
+457,30,30-39,R&D,Lab Technician,Europe,6970,No,4,4,3,No
+458,39,30-39,HR,HR Manager,North America,9010,No,4,2,2,Yes
+459,26,<30,Sales,Sales Executive,North America,3960,No,1,1,1,Yes
+460,19,<30,R&D,Lab Technician,Europe,7350,Yes,0,4,2,Yes
+461,22,<30,HR,HR Manager,Europe,1800,Yes,0,3,2,Yes
+462,41,40-49,R&D,Research Scientist,North America,8580,No,8,4,1,No
+463,43,40-49,HR,HR Specialist,North America,4010,No,9,1,4,No
+464,43,40-49,Sales,Sales Rep,Asia-Pacific,7400,No,1,2,4,Yes
+465,41,40-49,Sales,Sales Executive,Latin America,4160,No,4,1,1,Yes
+466,26,<30,Sales,Sales Rep,Latin America,2770,No,3,1,3,Yes
+467,43,40-49,R&D,Lab Technician,Asia-Pacific,5380,No,3,1,1,No
+468,48,40-49,Sales,Sales Executive,North America,10840,Yes,13,3,4,No
+469,31,30-39,Sales,Sales Rep,Asia-Pacific,3990,Yes,5,3,3,Yes
+470,46,40-49,Sales,Sales Executive,North America,8620,No,13,2,4,No
+471,34,30-39,HR,HR Specialist,North America,6350,No,8,1,3,No
+472,39,30-39,R&D,Lab Technician,North America,7180,No,5,4,3,No
+473,41,40-49,R&D,Research Scientist,North America,7390,No,12,2,3,No
+474,24,<30,R&D,Research Scientist,Europe,6660,No,0,4,3,No
+475,51,50+,R&D,Research Scientist,Asia-Pacific,4430,No,3,4,4,No
+476,30,30-39,R&D,Lab Technician,North America,5710,No,4,1,3,No
+477,36,30-39,R&D,Engineer,Asia-Pacific,7030,No,1,3,3,No
+478,33,30-39,R&D,Research Scientist,Latin America,4390,Yes,4,1,2,Yes
+479,41,40-49,Sales,Sales Executive,Europe,7500,No,5,4,2,No
+480,41,40-49,Sales,Sales Rep,Latin America,4000,Yes,9,3,3,No
+481,38,30-39,Sales,Sales Rep,Asia-Pacific,8170,No,5,2,1,No
+482,50,50+,Sales,Sales Rep,Latin America,5620,No,7,4,1,No
+483,40,40-49,Sales,Sales Rep,Europe,5790,No,8,1,2,No
+484,34,30-39,R&D,Engineer,Asia-Pacific,7980,No,8,2,3,No
+485,19,<30,Sales,Sales Executive,Europe,7360,Yes,0,4,4,Yes
+486,35,30-39,Sales,Sales Executive,Latin America,4610,Yes,1,3,3,Yes
+487,35,30-39,R&D,Engineer,North America,4430,No,2,3,1,No
+488,30,30-39,Sales,Sales Rep,Asia-Pacific,8120,Yes,6,1,1,Yes
+489,30,30-39,Sales,Sales Executive,North America,1800,No,5,2,2,No
+490,43,40-49,Sales,Sales Executive,Europe,10180,Yes,1,3,1,No
+491,47,40-49,R&D,Lab Technician,Asia-Pacific,10420,Yes,4,3,2,No
+492,54,50+,R&D,Engineer,Asia-Pacific,5050,Yes,16,2,2,Yes
+493,48,40-49,R&D,Lab Technician,Europe,10250,Yes,4,1,4,No
+494,31,30-39,HR,HR Specialist,Europe,6610,No,3,4,4,Yes
+495,40,40-49,Sales,Sales Rep,Europe,7670,No,3,2,4,No
+496,25,<30,HR,HR Specialist,Europe,1800,No,1,4,2,No
+497,44,40-49,Sales,Sales Executive,North America,5610,Yes,7,3,1,No
+498,41,40-49,R&D,Research Scientist,Latin America,6100,Yes,7,1,1,Yes
+499,32,30-39,R&D,Lab Technician,Europe,4740,Yes,6,4,4,No
+500,36,30-39,R&D,Engineer,North America,5150,Yes,5,1,3,No
+501,35,30-39,Sales,Sales Rep,North America,5320,Yes,9,3,1,Yes
+502,32,30-39,R&D,Engineer,North America,1800,No,4,3,3,Yes
+503,49,40-49,Sales,Sales Rep,Latin America,6800,Yes,9,1,4,Yes
+504,60,50+,Sales,Sales Rep,Latin America,6530,Yes,8,1,2,Yes
+505,45,40-49,HR,HR Specialist,North America,6720,No,7,2,4,Yes
+506,47,40-49,HR,HR Specialist,Europe,5860,Yes,16,3,1,Yes
+507,39,30-39,R&D,Lab Technician,Asia-Pacific,6390,No,7,3,1,No
+508,34,30-39,R&D,Research Scientist,North America,6670,No,2,4,2,No
+509,57,50+,HR,HR Manager,North America,12540,No,5,3,1,No
+510,34,30-39,Sales,Sales Rep,Europe,3850,No,6,3,1,No
+511,41,40-49,HR,HR Manager,Latin America,10870,No,7,4,3,No
+512,36,30-39,R&D,Research Scientist,Europe,5510,No,5,2,1,Yes
+513,43,40-49,Sales,Sales Rep,Asia-Pacific,4480,No,9,1,3,No
+514,37,30-39,R&D,Engineer,Latin America,2530,No,2,4,4,Yes
+515,43,40-49,R&D,Lab Technician,North America,8950,Yes,2,4,1,Yes
+516,26,<30,R&D,Lab Technician,Europe,1800,No,1,4,3,No
+517,36,30-39,R&D,Research Scientist,Europe,8440,Yes,3,1,2,No
+518,50,50+,Sales,Sales Executive,Latin America,8260,No,13,3,1,No
+519,28,<30,R&D,Research Scientist,Asia-Pacific,3960,No,4,4,4,No
+520,31,30-39,HR,HR Specialist,Europe,3970,No,4,3,2,No
+521,50,50+,R&D,Research Scientist,Europe,8620,No,15,3,2,No
+522,41,40-49,HR,HR Specialist,Latin America,6960,Yes,10,1,2,No
+523,47,40-49,R&D,Research Scientist,North America,9000,No,7,2,4,No
+524,19,<30,R&D,Research Scientist,Latin America,4580,Yes,0,1,2,Yes
+525,39,30-39,Sales,Sales Rep,Asia-Pacific,5080,No,9,3,4,Yes
+526,26,<30,R&D,Engineer,Asia-Pacific,6590,Yes,3,3,4,No
+527,25,<30,R&D,Research Scientist,Asia-Pacific,2080,Yes,2,1,2,Yes
+528,41,40-49,R&D,Lab Technician,Latin America,8720,Yes,6,3,4,No
+529,48,40-49,Sales,Sales Rep,North America,7330,No,3,4,2,No
+530,24,<30,R&D,Engineer,Europe,2190,Yes,1,2,1,Yes
+531,27,<30,R&D,Research Scientist,North America,2710,No,2,2,1,Yes
+532,32,30-39,R&D,Research Scientist,North America,4930,No,2,3,3,No
+533,36,30-39,R&D,Engineer,North America,1800,No,7,2,3,No
+534,25,<30,HR,HR Specialist,Asia-Pacific,8670,No,1,2,2,No
+535,58,50+,Sales,Sales Rep,Asia-Pacific,10560,No,11,1,1,No
+536,43,40-49,Sales,Sales Rep,North America,3950,No,6,4,2,No
+537,34,30-39,R&D,Engineer,Asia-Pacific,5640,Yes,8,4,3,No
+538,33,30-39,HR,HR Manager,Europe,10170,No,4,2,1,Yes
+539,58,50+,R&D,Research Scientist,Asia-Pacific,9120,Yes,16,3,3,Yes
+540,58,50+,Sales,Sales Executive,Asia-Pacific,5500,No,22,2,3,Yes
+541,33,30-39,Sales,Sales Rep,Asia-Pacific,1800,Yes,6,1,4,Yes
+542,40,40-49,R&D,Lab Technician,Latin America,2280,No,9,4,4,No
+543,49,40-49,R&D,Research Scientist,Latin America,10330,No,15,4,1,No
+544,27,<30,R&D,Engineer,Latin America,6110,No,2,2,1,Yes
+545,32,30-39,R&D,Lab Technician,Europe,2400,No,2,3,4,No
+546,49,40-49,Sales,Sales Executive,North America,9090,No,5,3,4,No
+547,31,30-39,R&D,Lab Technician,Europe,4730,Yes,1,2,3,Yes
+548,33,30-39,Sales,Sales Executive,Latin America,4130,Yes,1,1,4,No
+549,25,<30,Sales,Sales Executive,Europe,3780,No,3,1,1,Yes
+550,30,30-39,Sales,Sales Executive,Europe,4380,No,6,3,2,Yes
+551,43,40-49,HR,HR Specialist,North America,11020,No,12,1,3,No
+552,30,30-39,Sales,Sales Executive,Asia-Pacific,3150,No,2,2,3,Yes
+553,25,<30,Sales,Sales Executive,Europe,4090,No,0,4,1,No
+554,32,30-39,HR,HR Specialist,Europe,9170,No,5,1,3,No
+555,53,50+,Sales,Sales Executive,Asia-Pacific,11500,No,12,3,1,No
+556,39,30-39,R&D,Engineer,Latin America,3860,No,7,3,3,Yes
+557,32,30-39,Sales,Sales Executive,Asia-Pacific,11060,Yes,3,3,4,No
+558,39,30-39,R&D,Lab Technician,Europe,9210,Yes,7,4,3,No
+559,41,40-49,Sales,Sales Executive,Europe,2750,No,10,2,4,No
+560,38,30-39,Sales,Sales Rep,North America,10930,No,6,3,4,No
+561,21,<30,R&D,Research Scientist,Latin America,1800,Yes,0,2,2,Yes
+562,40,40-49,HR,HR Specialist,Latin America,8220,No,6,2,4,No
+563,35,30-39,HR,HR Specialist,North America,3060,No,1,4,3,No
+564,45,40-49,R&D,Lab Technician,Asia-Pacific,2340,No,6,3,1,No
+565,25,<30,HR,HR Specialist,Asia-Pacific,7310,Yes,1,4,2,No
+566,47,40-49,HR,HR Specialist,Asia-Pacific,8190,No,5,1,3,No
+567,33,30-39,R&D,Engineer,North America,5630,No,6,2,1,Yes
+568,22,<30,Sales,Sales Rep,North America,5350,No,1,1,4,Yes
+569,49,40-49,R&D,Research Scientist,Asia-Pacific,7020,No,8,1,2,No
+570,32,30-39,R&D,Research Scientist,North America,5090,Yes,5,1,1,No
+571,40,40-49,Sales,Sales Rep,Asia-Pacific,3720,No,7,2,3,Yes
+572,36,30-39,R&D,Research Scientist,Asia-Pacific,7620,No,3,3,3,No
+573,47,40-49,Sales,Sales Rep,Latin America,7160,Yes,2,1,2,Yes
+574,47,40-49,Sales,Sales Executive,Asia-Pacific,6470,Yes,6,3,4,No
+575,47,40-49,Sales,Sales Rep,Latin America,5640,Yes,14,4,3,No
+576,44,40-49,R&D,Lab Technician,Asia-Pacific,6110,No,12,2,4,Yes
+577,22,<30,R&D,Research Scientist,Asia-Pacific,1800,No,1,2,2,Yes
+578,22,<30,HR,HR Specialist,Asia-Pacific,4060,No,1,3,3,No
+579,39,30-39,R&D,Lab Technician,Latin America,3850,No,8,4,1,No
+580,28,<30,HR,HR Manager,Asia-Pacific,8700,No,1,2,3,Yes
+581,41,40-49,R&D,Lab Technician,Latin America,4110,No,2,3,1,No
+582,39,30-39,R&D,Engineer,North America,5220,No,10,2,2,Yes
+583,24,<30,R&D,Lab Technician,North America,5070,Yes,1,4,3,No
+584,28,<30,Sales,Sales Rep,Europe,7440,No,1,4,2,Yes
+585,27,<30,Sales,Sales Executive,Latin America,6490,No,4,4,3,No
+586,29,<30,R&D,Research Scientist,Europe,5520,No,3,4,2,Yes
+587,35,30-39,Sales,Sales Rep,Asia-Pacific,11590,Yes,1,1,1,Yes
+588,43,40-49,R&D,Lab Technician,Asia-Pacific,6700,No,4,4,3,No
+589,49,40-49,R&D,Lab Technician,Latin America,8120,Yes,5,1,4,Yes
+590,28,<30,Sales,Sales Rep,Asia-Pacific,12440,No,3,2,4,No
+591,32,30-39,R&D,Lab Technician,Latin America,3460,No,1,1,4,No
+592,51,50+,R&D,Engineer,Asia-Pacific,9950,Yes,10,3,4,Yes
+593,45,40-49,Sales,Sales Rep,Asia-Pacific,8070,No,6,2,2,Yes
+594,39,30-39,Sales,Sales Rep,Asia-Pacific,2990,No,2,1,4,No
+595,19,<30,Sales,Sales Rep,Asia-Pacific,2980,No,0,2,4,Yes
+596,28,<30,Sales,Sales Executive,Latin America,7540,No,3,1,2,No
+597,38,30-39,R&D,Engineer,Asia-Pacific,2550,No,4,4,1,Yes
+598,32,30-39,Sales,Sales Executive,Latin America,5270,Yes,3,1,1,No
+599,55,50+,R&D,Research Scientist,Latin America,10230,No,8,3,1,Yes
+600,38,30-39,R&D,Lab Technician,North America,5680,No,10,3,1,No
+601,40,40-49,HR,HR Manager,Europe,7160,No,11,2,4,Yes
+602,27,<30,Sales,Sales Rep,Asia-Pacific,3580,No,2,4,4,Yes
+603,27,<30,Sales,Sales Rep,Asia-Pacific,3690,Yes,3,4,2,Yes
+604,31,30-39,Sales,Sales Executive,Europe,4080,Yes,6,2,3,Yes
+605,31,30-39,Sales,Sales Executive,Latin America,4760,No,5,2,4,Yes
+606,35,30-39,Sales,Sales Executive,North America,7650,No,7,2,2,Yes
+607,40,40-49,Sales,Sales Rep,Europe,6670,No,2,3,2,No
+608,39,30-39,Sales,Sales Executive,Europe,11470,No,9,2,3,Yes
+609,46,40-49,Sales,Sales Rep,North America,8430,Yes,2,4,2,No
+610,25,<30,R&D,Engineer,Latin America,5840,Yes,3,2,4,No
+611,39,30-39,R&D,Research Scientist,North America,12180,No,3,1,4,Yes
+612,39,30-39,R&D,Engineer,Latin America,6100,Yes,3,4,3,No
+613,51,50+,Sales,Sales Rep,Latin America,5380,No,9,4,2,Yes
+614,35,30-39,Sales,Sales Rep,North America,6420,Yes,4,2,1,No
+615,40,40-49,Sales,Sales Executive,Europe,3660,No,2,3,1,No
+616,30,30-39,Sales,Sales Rep,North America,6900,No,1,1,3,Yes
+617,41,40-49,R&D,Engineer,Latin America,10080,Yes,12,2,2,No
+618,41,40-49,R&D,Lab Technician,Asia-Pacific,8210,No,3,4,1,Yes
+619,31,30-39,R&D,Engineer,Europe,4610,No,1,2,1,Yes
+620,33,30-39,Sales,Sales Rep,Latin America,5470,Yes,3,1,2,Yes
+621,37,30-39,Sales,Sales Executive,North America,7450,No,5,1,3,Yes
+622,42,40-49,Sales,Sales Executive,North America,9700,No,2,4,3,No
+623,27,<30,R&D,Lab Technician,Europe,4270,No,3,2,4,No
+624,45,40-49,R&D,Lab Technician,North America,5850,No,8,2,3,No
+625,34,30-39,R&D,Engineer,Asia-Pacific,8740,Yes,7,4,4,No
+626,54,50+,Sales,Sales Executive,Asia-Pacific,8300,Yes,6,4,1,Yes
+627,50,50+,Sales,Sales Executive,Latin America,8260,Yes,2,3,3,No
+628,33,30-39,R&D,Research Scientist,Asia-Pacific,7090,No,5,3,3,Yes
+629,31,30-39,R&D,Engineer,North America,3670,Yes,7,3,2,No
+630,59,50+,R&D,Research Scientist,Latin America,7800,No,3,3,2,No
+631,43,40-49,HR,HR Manager,Asia-Pacific,9490,Yes,11,3,1,No
+632,42,40-49,Sales,Sales Executive,North America,6250,No,6,3,1,No
+633,33,30-39,Sales,Sales Executive,Asia-Pacific,5340,No,6,3,3,No
+634,36,30-39,R&D,Lab Technician,Europe,6890,No,4,3,4,Yes
+635,44,40-49,R&D,Engineer,Europe,7840,No,12,2,3,No
+636,43,40-49,HR,HR Manager,Latin America,13310,No,8,4,3,No
+637,29,<30,HR,HR Manager,Asia-Pacific,3400,No,2,3,4,No
+638,48,40-49,R&D,Research Scientist,Europe,7560,Yes,7,3,3,Yes
+639,40,40-49,R&D,Lab Technician,Latin America,11690,No,8,3,4,No
+640,28,<30,R&D,Research Scientist,Europe,5490,No,2,3,1,No
+641,46,40-49,Sales,Sales Executive,Latin America,8000,No,6,3,3,No
+642,35,30-39,R&D,Lab Technician,North America,2280,No,8,4,4,Yes
+643,44,40-49,Sales,Sales Rep,Europe,9360,No,4,4,2,No
+644,32,30-39,R&D,Lab Technician,Latin America,8010,Yes,5,2,1,No
+645,40,40-49,Sales,Sales Executive,Asia-Pacific,8600,No,3,4,3,No
+646,22,<30,Sales,Sales Executive,Europe,4400,No,0,2,1,Yes
+647,40,40-49,R&D,Engineer,Asia-Pacific,7440,No,9,4,4,No
+648,23,<30,R&D,Engineer,Europe,4780,Yes,1,3,4,Yes
+649,38,30-39,R&D,Research Scientist,Latin America,8500,No,5,3,2,No
+650,19,<30,Sales,Sales Rep,Asia-Pacific,4560,No,0,2,4,No
+651,36,30-39,R&D,Lab Technician,Latin America,8160,No,9,3,4,No
+652,44,40-49,Sales,Sales Rep,Latin America,3400,No,11,1,2,No
+653,41,40-49,R&D,Engineer,Latin America,5730,Yes,4,4,4,Yes
+654,48,40-49,R&D,Engineer,Latin America,1800,No,7,3,1,Yes
+655,27,<30,R&D,Lab Technician,Europe,4940,Yes,1,3,2,No
+656,51,50+,HR,HR Manager,Europe,9470,Yes,15,2,2,Yes
+657,52,50+,Sales,Sales Executive,Europe,6900,Yes,13,1,3,No
+658,26,<30,R&D,Engineer,Asia-Pacific,11300,No,1,3,2,No
+659,30,30-39,Sales,Sales Executive,Europe,3030,No,3,3,3,No
+660,32,30-39,R&D,Research Scientist,Europe,4900,No,6,4,2,No
+661,37,30-39,Sales,Sales Executive,Asia-Pacific,3830,No,3,4,1,No
+662,39,30-39,R&D,Engineer,Latin America,5100,No,5,4,1,No
+663,19,<30,R&D,Lab Technician,Latin America,3390,Yes,0,2,2,Yes
+664,42,40-49,Sales,Sales Rep,Latin America,2860,No,8,4,4,No
+665,35,30-39,Sales,Sales Rep,Latin America,3510,No,1,1,1,Yes
+666,28,<30,R&D,Engineer,Asia-Pacific,10650,No,2,1,4,No
+667,46,40-49,R&D,Research Scientist,North America,6350,No,4,1,4,No
+668,34,30-39,R&D,Engineer,Latin America,8300,No,2,4,4,No
+669,47,40-49,Sales,Sales Rep,Latin America,3840,No,6,2,4,No
+670,42,40-49,Sales,Sales Rep,Asia-Pacific,6370,No,4,4,2,Yes
+671,34,30-39,R&D,Lab Technician,Europe,7330,No,6,3,3,No
+672,48,40-49,HR,HR Manager,Asia-Pacific,6760,No,3,2,2,No
+673,44,40-49,R&D,Engineer,Latin America,5520,No,12,1,1,Yes
+674,32,30-39,R&D,Research Scientist,North America,5280,Yes,6,2,3,Yes
+675,22,<30,R&D,Lab Technician,Europe,4940,No,1,4,1,No
+676,32,30-39,Sales,Sales Executive,Asia-Pacific,7910,Yes,1,2,4,No
+677,43,40-49,Sales,Sales Executive,Asia-Pacific,9870,No,2,2,1,No
+678,35,30-39,R&D,Research Scientist,Europe,2620,No,9,1,1,No
+679,53,50+,Sales,Sales Executive,Latin America,2340,No,3,4,2,Yes
+680,39,30-39,HR,HR Specialist,Asia-Pacific,5890,No,2,3,1,No
+681,39,30-39,R&D,Engineer,Europe,6400,Yes,3,1,3,No
+682,41,40-49,R&D,Engineer,North America,8420,Yes,8,1,1,Yes
+683,29,<30,R&D,Research Scientist,Latin America,8250,Yes,4,2,3,No
+684,36,30-39,Sales,Sales Executive,Europe,4400,No,1,1,1,Yes
+685,31,30-39,R&D,Research Scientist,Asia-Pacific,10990,Yes,3,2,4,No
+686,19,<30,Sales,Sales Rep,Asia-Pacific,5250,No,0,2,1,Yes
+687,21,<30,Sales,Sales Executive,Latin America,1800,No,1,3,1,No
+688,44,40-49,Sales,Sales Executive,Asia-Pacific,9320,No,9,4,2,Yes
+689,33,30-39,R&D,Lab Technician,Asia-Pacific,6570,No,4,2,2,No
+690,36,30-39,R&D,Lab Technician,Asia-Pacific,6860,Yes,4,1,2,Yes
+691,24,<30,Sales,Sales Rep,Asia-Pacific,1800,No,1,3,3,Yes
+692,32,30-39,R&D,Research Scientist,Europe,4970,Yes,2,3,3,No
+693,44,40-49,Sales,Sales Rep,Asia-Pacific,7250,No,11,4,3,No
+694,38,30-39,R&D,Lab Technician,Asia-Pacific,5900,Yes,2,4,4,No
+695,32,30-39,Sales,Sales Executive,Europe,7530,No,4,3,4,No
+696,51,50+,Sales,Sales Rep,Asia-Pacific,10720,No,15,4,4,No
+697,36,30-39,Sales,Sales Rep,Asia-Pacific,10060,Yes,5,1,4,No
+698,34,30-39,R&D,Engineer,Asia-Pacific,9170,Yes,4,1,4,No
+699,47,40-49,R&D,Lab Technician,Latin America,6730,Yes,11,2,4,No
+700,21,<30,R&D,Engineer,Europe,9210,No,0,2,2,Yes
+701,42,40-49,R&D,Engineer,Europe,7330,No,2,1,4,No
+702,27,<30,R&D,Research Scientist,North America,7520,No,1,1,4,No
+703,30,30-39,R&D,Research Scientist,Asia-Pacific,4950,Yes,2,2,4,Yes
+704,31,30-39,R&D,Engineer,Asia-Pacific,2060,No,3,4,2,No
+705,38,30-39,R&D,Research Scientist,Asia-Pacific,1800,No,4,4,2,No
+706,38,30-39,R&D,Research Scientist,North America,6780,Yes,4,1,1,No
+707,40,40-49,R&D,Engineer,Asia-Pacific,4730,No,9,3,4,No
+708,39,30-39,HR,HR Manager,Latin America,6370,No,9,3,4,No
+709,50,50+,R&D,Lab Technician,North America,9690,No,14,3,4,No
+710,52,50+,R&D,Research Scientist,Europe,3610,No,14,4,4,No
+711,43,40-49,Sales,Sales Rep,Europe,2190,No,2,2,4,No
+712,44,40-49,HR,HR Specialist,Europe,7510,Yes,6,3,2,Yes
+713,34,30-39,R&D,Lab Technician,North America,6880,No,4,3,4,No
+714,27,<30,R&D,Lab Technician,Europe,4600,No,3,4,1,No
+715,42,40-49,Sales,Sales Executive,Latin America,5300,No,6,2,2,Yes
+716,37,30-39,R&D,Research Scientist,North America,2090,No,6,3,2,Yes
+717,45,40-49,R&D,Research Scientist,North America,6710,No,12,2,4,No
+718,20,<30,Sales,Sales Rep,Latin America,2760,No,0,1,4,Yes
+719,60,50+,R&D,Research Scientist,Latin America,9390,No,7,2,1,Yes
+720,25,<30,R&D,Engineer,Latin America,7580,No,3,1,1,Yes
+721,37,30-39,Sales,Sales Executive,North America,4770,Yes,9,1,1,Yes
+722,46,40-49,R&D,Lab Technician,Latin America,8090,Yes,8,4,3,No
+723,24,<30,Sales,Sales Executive,Asia-Pacific,5520,No,2,4,3,No
+724,32,30-39,R&D,Research Scientist,Asia-Pacific,7570,No,1,1,1,No
+725,19,<30,R&D,Engineer,Latin America,8550,Yes,0,2,1,Yes
+726,24,<30,Sales,Sales Executive,Latin America,6740,No,2,2,3,Yes
+727,19,<30,Sales,Sales Rep,Latin America,6420,Yes,0,4,3,Yes
+728,38,30-39,R&D,Lab Technician,Europe,8350,Yes,8,2,4,Yes
+729,40,40-49,Sales,Sales Executive,Asia-Pacific,5380,No,1,3,4,No
+730,34,30-39,R&D,Lab Technician,Europe,5920,No,4,3,3,No
+731,48,40-49,R&D,Research Scientist,Europe,8090,No,16,4,4,No
+732,50,50+,R&D,Engineer,North America,10580,No,4,4,1,No
+733,37,30-39,Sales,Sales Executive,Europe,9550,No,7,1,1,No
+734,35,30-39,HR,HR Manager,Europe,11900,No,4,4,1,No
+735,34,30-39,R&D,Engineer,North America,3120,No,4,2,1,Yes
+736,33,30-39,R&D,Engineer,Latin America,5740,No,7,1,2,No
+737,49,40-49,Sales,Sales Rep,Europe,2820,No,15,1,1,No
+738,39,30-39,R&D,Engineer,Asia-Pacific,5000,No,5,1,4,No
+739,34,30-39,R&D,Lab Technician,North America,1800,Yes,6,4,3,No
+740,35,30-39,Sales,Sales Rep,Asia-Pacific,9040,Yes,3,2,1,No
+741,42,40-49,Sales,Sales Rep,Asia-Pacific,8610,No,8,4,3,No
+742,33,30-39,Sales,Sales Rep,Asia-Pacific,3070,No,2,1,2,Yes
+743,40,40-49,Sales,Sales Rep,Asia-Pacific,7350,No,10,1,2,Yes
+744,37,30-39,Sales,Sales Executive,Asia-Pacific,8120,Yes,2,2,4,No
+745,49,40-49,R&D,Research Scientist,Latin America,11780,Yes,3,2,3,No
+746,48,40-49,R&D,Lab Technician,Asia-Pacific,9340,Yes,2,3,1,No
+747,24,<30,R&D,Research Scientist,North America,5360,Yes,2,2,4,Yes
+748,36,30-39,R&D,Lab Technician,Europe,5880,No,7,2,4,No
+749,43,40-49,Sales,Sales Executive,Europe,8370,Yes,10,3,3,No
+750,33,30-39,R&D,Research Scientist,Asia-Pacific,6630,No,7,2,1,No
+751,44,40-49,Sales,Sales Rep,Asia-Pacific,5600,Yes,10,1,4,No
+752,40,40-49,R&D,Lab Technician,North America,3320,No,1,2,1,No
+753,42,40-49,Sales,Sales Rep,Latin America,9390,No,2,1,2,No
+754,36,30-39,Sales,Sales Executive,Europe,4260,No,1,4,4,Yes
+755,40,40-49,Sales,Sales Executive,Asia-Pacific,5780,No,2,1,4,No
+756,42,40-49,R&D,Engineer,Asia-Pacific,8720,No,2,4,4,No
+757,24,<30,R&D,Research Scientist,Europe,4890,No,1,4,1,No
+758,29,<30,Sales,Sales Rep,North America,8420,No,2,1,3,Yes
+759,28,<30,R&D,Research Scientist,Europe,2500,Yes,3,3,2,Yes
+760,52,50+,Sales,Sales Executive,Europe,9530,Yes,10,2,1,Yes
+761,40,40-49,Sales,Sales Executive,North America,3040,No,9,3,2,Yes
+762,40,40-49,R&D,Lab Technician,Latin America,2600,Yes,6,3,1,Yes
+763,39,30-39,Sales,Sales Rep,Asia-Pacific,3690,Yes,11,2,4,No
+764,32,30-39,R&D,Lab Technician,North America,6060,No,5,4,4,No
+765,30,30-39,R&D,Research Scientist,Europe,3830,No,1,4,3,No
+766,45,40-49,R&D,Research Scientist,North America,3360,Yes,7,2,3,Yes
+767,34,30-39,Sales,Sales Executive,Asia-Pacific,9040,No,3,4,2,Yes
+768,51,50+,R&D,Engineer,Latin America,4980,No,15,4,4,Yes
+769,39,30-39,R&D,Lab Technician,Asia-Pacific,6100,No,2,1,1,Yes
+770,38,30-39,R&D,Engineer,North America,6960,No,10,3,4,No
+771,35,30-39,Sales,Sales Rep,Asia-Pacific,4800,Yes,6,4,1,Yes
+772,36,30-39,R&D,Research Scientist,Europe,7050,Yes,8,1,3,Yes
+773,37,30-39,Sales,Sales Rep,Asia-Pacific,7810,Yes,4,4,2,No
+774,51,50+,R&D,Engineer,Latin America,7200,No,17,1,1,No
+775,58,50+,R&D,Research Scientist,Asia-Pacific,10790,No,3,4,4,No
+776,27,<30,HR,HR Specialist,Europe,3780,No,3,1,2,Yes
+777,39,30-39,R&D,Lab Technician,Latin America,3650,Yes,2,2,4,No
+778,43,40-49,HR,HR Manager,Latin America,7270,No,13,1,4,Yes
+779,29,<30,Sales,Sales Executive,Latin America,2980,Yes,2,2,4,Yes
+780,31,30-39,R&D,Engineer,Latin America,6640,Yes,4,3,4,No
+781,33,30-39,R&D,Research Scientist,Asia-Pacific,5580,No,3,2,1,No
+782,19,<30,R&D,Lab Technician,North America,3380,No,0,1,1,No
+783,43,40-49,R&D,Lab Technician,Asia-Pacific,8240,No,7,4,3,No
+784,37,30-39,R&D,Lab Technician,North America,7590,No,3,4,3,No
+785,36,30-39,Sales,Sales Rep,Latin America,1800,No,1,1,1,No
+786,38,30-39,R&D,Lab Technician,Latin America,5470,Yes,10,3,4,No
+787,39,30-39,Sales,Sales Executive,Latin America,6750,No,6,4,1,No
+788,58,50+,R&D,Lab Technician,Europe,9360,Yes,9,4,1,No
+789,39,30-39,R&D,Lab Technician,Latin America,4970,No,9,3,1,No
+790,45,40-49,Sales,Sales Rep,Europe,3950,No,11,2,3,No
+791,32,30-39,R&D,Lab Technician,Asia-Pacific,6080,No,6,2,3,No
+792,40,40-49,R&D,Research Scientist,Latin America,8240,No,9,4,3,Yes
+793,34,30-39,Sales,Sales Executive,Asia-Pacific,1800,No,8,3,4,No
+794,36,30-39,Sales,Sales Executive,North America,2230,Yes,8,4,2,No
+795,29,<30,Sales,Sales Rep,Asia-Pacific,3960,No,4,1,3,Yes
+796,30,30-39,R&D,Engineer,Latin America,1800,Yes,5,2,2,Yes
+797,41,40-49,Sales,Sales Executive,Europe,5020,No,12,1,4,No
+798,44,40-49,Sales,Sales Executive,Asia-Pacific,8960,Yes,3,2,2,No
+799,41,40-49,R&D,Lab Technician,Asia-Pacific,3810,No,6,4,2,No
+800,31,30-39,R&D,Engineer,Asia-Pacific,6020,No,3,3,3,No
+801,40,40-49,Sales,Sales Rep,Latin America,4170,Yes,9,1,4,No
+802,19,<30,HR,HR Manager,North America,5670,No,0,4,4,No
+803,46,40-49,Sales,Sales Executive,Latin America,8690,Yes,9,3,3,No
+804,37,30-39,R&D,Lab Technician,Asia-Pacific,9570,No,4,4,3,No
+805,40,40-49,Sales,Sales Executive,Europe,6660,Yes,3,3,2,Yes
+806,48,40-49,R&D,Engineer,Latin America,9910,No,5,3,1,No
+807,33,30-39,R&D,Engineer,Asia-Pacific,6880,No,7,2,2,No
+808,46,40-49,Sales,Sales Executive,Europe,5780,No,5,1,3,Yes
+809,33,30-39,R&D,Research Scientist,Latin America,9660,No,2,2,2,No
+810,42,40-49,R&D,Research Scientist,North America,5100,Yes,6,1,2,No
+811,33,30-39,R&D,Research Scientist,Europe,6280,Yes,1,2,1,No
+812,40,40-49,R&D,Engineer,North America,12810,Yes,4,4,4,No
+813,50,50+,Sales,Sales Rep,Latin America,9620,No,16,2,4,No
+814,31,30-39,Sales,Sales Executive,North America,3530,No,3,4,2,No
+815,32,30-39,Sales,Sales Rep,North America,6510,No,4,1,4,No
+816,34,30-39,Sales,Sales Executive,Europe,4490,No,5,2,3,No
+817,40,40-49,R&D,Research Scientist,Latin America,6090,Yes,10,2,2,Yes
+818,60,50+,R&D,Research Scientist,Latin America,4370,Yes,18,2,3,Yes
+819,32,30-39,Sales,Sales Rep,Latin America,6310,Yes,5,3,3,Yes
+820,19,<30,Sales,Sales Executive,North America,1800,No,0,4,4,Yes
+821,31,30-39,R&D,Research Scientist,Latin America,6610,No,4,3,2,No
+822,23,<30,Sales,Sales Rep,Europe,5900,No,0,2,3,Yes
+823,32,30-39,R&D,Research Scientist,Asia-Pacific,7940,Yes,1,3,3,No
+824,37,30-39,R&D,Engineer,Europe,11970,No,6,1,3,No
+825,29,<30,R&D,Lab Technician,Latin America,1800,No,5,2,2,Yes
+826,31,30-39,Sales,Sales Executive,Europe,2560,No,3,3,3,No
+827,20,<30,R&D,Lab Technician,Europe,2080,No,0,1,2,No
+828,39,30-39,HR,HR Specialist,Asia-Pacific,4900,Yes,9,4,3,No
+829,31,30-39,Sales,Sales Rep,North America,7940,Yes,3,2,2,Yes
+830,47,40-49,R&D,Engineer,Asia-Pacific,6220,No,6,3,3,No
+831,47,40-49,R&D,Engineer,Asia-Pacific,5580,No,15,3,2,No
+832,29,<30,R&D,Engineer,North America,2550,No,3,1,4,Yes
+833,34,30-39,R&D,Engineer,North America,4290,Yes,8,2,3,No
+834,38,30-39,Sales,Sales Executive,Latin America,5150,No,11,1,2,No
+835,44,40-49,R&D,Lab Technician,Latin America,6550,No,2,3,3,No
+836,22,<30,Sales,Sales Rep,Asia-Pacific,1800,No,1,2,2,Yes
+837,37,30-39,R&D,Lab Technician,North America,5990,No,6,3,4,Yes
+838,54,50+,R&D,Lab Technician,Europe,9190,Yes,3,4,3,Yes
+839,37,30-39,R&D,Research Scientist,Latin America,7090,Yes,7,1,4,No
+840,39,30-39,R&D,Lab Technician,Latin America,3140,Yes,5,1,4,Yes
+841,37,30-39,R&D,Research Scientist,North America,8320,No,7,4,1,No
+842,27,<30,HR,HR Manager,Asia-Pacific,7380,Yes,1,2,4,No
+843,46,40-49,Sales,Sales Rep,Latin America,7780,No,3,2,2,No
+844,40,40-49,Sales,Sales Executive,North America,3280,No,9,1,3,Yes
+845,39,30-39,R&D,Research Scientist,Asia-Pacific,2550,Yes,7,3,3,No
+846,44,40-49,R&D,Engineer,Latin America,6930,Yes,3,2,3,No
+847,44,40-49,R&D,Engineer,North America,4160,No,9,1,4,Yes
+848,20,<30,R&D,Research Scientist,Asia-Pacific,1800,No,0,4,1,No
+849,42,40-49,Sales,Sales Rep,Europe,8960,Yes,8,4,4,Yes
+850,32,30-39,R&D,Engineer,Europe,8110,Yes,5,2,1,Yes
+851,39,30-39,R&D,Engineer,Europe,8040,No,2,1,2,No
+852,31,30-39,Sales,Sales Rep,North America,9050,No,6,3,1,No
+853,30,30-39,R&D,Engineer,North America,7910,Yes,1,4,3,No
+854,46,40-49,R&D,Engineer,North America,4000,No,3,4,4,No
+855,37,30-39,Sales,Sales Rep,Asia-Pacific,9170,No,6,2,4,Yes
+856,35,30-39,Sales,Sales Executive,North America,6330,No,8,1,1,No
+857,35,30-39,R&D,Lab Technician,Asia-Pacific,7160,No,8,2,1,No
+858,38,30-39,Sales,Sales Rep,Europe,10350,No,5,2,1,Yes
+859,37,30-39,R&D,Research Scientist,Europe,7340,No,4,2,1,No
+860,19,<30,HR,HR Specialist,Europe,8660,Yes,0,2,3,Yes
+861,30,30-39,R&D,Lab Technician,North America,5710,No,1,2,3,No
+862,35,30-39,Sales,Sales Executive,Latin America,5030,Yes,6,1,2,Yes
+863,44,40-49,R&D,Lab Technician,Asia-Pacific,4990,Yes,2,3,1,No
+864,50,50+,HR,HR Manager,Asia-Pacific,7010,No,2,1,1,No
+865,29,<30,R&D,Research Scientist,Europe,1800,No,3,3,2,Yes
+866,55,50+,R&D,Research Scientist,North America,7650,No,13,4,4,Yes
+867,38,30-39,R&D,Research Scientist,North America,5970,Yes,5,3,3,No
+868,42,40-49,R&D,Engineer,Europe,5260,No,4,4,4,No
+869,33,30-39,R&D,Lab Technician,Latin America,1800,No,7,1,1,Yes
+870,32,30-39,R&D,Research Scientist,Europe,1800,No,5,2,1,Yes
+871,51,50+,Sales,Sales Executive,North America,9290,Yes,6,4,4,No
+872,36,30-39,R&D,Lab Technician,North America,3620,Yes,2,4,3,Yes
+873,37,30-39,R&D,Engineer,Asia-Pacific,9760,No,7,2,1,No
+874,48,40-49,HR,HR Specialist,Europe,5330,Yes,16,1,4,Yes
+875,53,50+,Sales,Sales Executive,Europe,8570,No,16,1,2,No
+876,24,<30,R&D,Research Scientist,Asia-Pacific,1800,No,1,2,1,Yes
+877,36,30-39,Sales,Sales Rep,North America,4450,No,2,3,3,Yes
+878,38,30-39,HR,HR Manager,Latin America,5710,No,7,3,2,Yes
+879,54,50+,HR,HR Specialist,Europe,9240,No,3,2,3,No
+880,60,50+,Sales,Sales Rep,Europe,12640,Yes,19,2,2,No
+881,37,30-39,Sales,Sales Executive,North America,8700,Yes,2,1,1,No
+882,41,40-49,HR,HR Specialist,Asia-Pacific,2790,Yes,5,3,4,Yes
+883,46,40-49,HR,HR Specialist,Asia-Pacific,7020,No,3,2,2,No
+884,48,40-49,R&D,Lab Technician,Asia-Pacific,6750,No,2,3,1,No
+885,35,30-39,Sales,Sales Rep,Europe,4360,Yes,3,1,4,Yes
+886,46,40-49,Sales,Sales Executive,North America,8540,No,5,4,1,Yes
+887,32,30-39,Sales,Sales Rep,Asia-Pacific,9850,No,5,3,4,No
+888,19,<30,HR,HR Manager,Asia-Pacific,3390,No,0,4,2,No
+889,25,<30,R&D,Lab Technician,Europe,8020,No,3,1,1,No
+890,40,40-49,R&D,Engineer,Europe,10100,Yes,5,2,2,Yes
+891,45,40-49,R&D,Research Scientist,Latin America,4160,No,8,4,1,No
+892,19,<30,HR,HR Specialist,North America,9190,No,0,3,2,Yes
+893,22,<30,Sales,Sales Rep,Asia-Pacific,9240,No,1,3,3,No
+894,38,30-39,R&D,Research Scientist,North America,7060,No,5,2,3,No
+895,19,<30,Sales,Sales Rep,Europe,9030,Yes,0,1,2,Yes
+896,43,40-49,Sales,Sales Executive,Latin America,7390,Yes,11,3,2,No
+897,47,40-49,Sales,Sales Executive,North America,10100,Yes,14,3,2,No
+898,19,<30,Sales,Sales Executive,North America,6280,No,0,3,3,No
+899,45,40-49,R&D,Research Scientist,Europe,4680,Yes,7,3,4,No
+900,36,30-39,Sales,Sales Rep,Latin America,6790,No,5,2,2,No
+901,51,50+,R&D,Engineer,Asia-Pacific,7030,No,16,1,2,No
+902,41,40-49,Sales,Sales Rep,Europe,5280,Yes,4,1,4,No
+903,36,30-39,R&D,Engineer,Asia-Pacific,3110,Yes,3,4,3,No
+904,39,30-39,Sales,Sales Rep,North America,4350,No,8,1,1,Yes
+905,47,40-49,Sales,Sales Rep,Latin America,3890,No,14,2,2,No
+906,40,40-49,Sales,Sales Rep,Latin America,9430,No,10,1,3,No
+907,39,30-39,R&D,Engineer,North America,1800,No,2,2,1,No
+908,25,<30,R&D,Engineer,Asia-Pacific,5320,Yes,1,4,1,Yes
+909,43,40-49,R&D,Engineer,Asia-Pacific,5150,No,6,3,4,No
+910,38,30-39,R&D,Research Scientist,Europe,3040,No,9,4,3,No
+911,55,50+,R&D,Research Scientist,Asia-Pacific,9710,No,10,4,1,No
+912,38,30-39,R&D,Research Scientist,Latin America,4220,No,3,3,3,No
+913,37,30-39,Sales,Sales Executive,Asia-Pacific,9340,Yes,1,4,3,No
+914,33,30-39,Sales,Sales Executive,Asia-Pacific,5380,Yes,7,4,2,No
+915,45,40-49,R&D,Research Scientist,North America,7790,No,13,1,4,No
+916,36,30-39,R&D,Research Scientist,Europe,5770,No,6,4,2,Yes
+917,32,30-39,R&D,Research Scientist,Latin America,7440,Yes,5,4,3,No
+918,53,50+,Sales,Sales Executive,Asia-Pacific,10080,Yes,12,3,3,No
+919,54,50+,R&D,Research Scientist,Europe,6560,No,8,1,2,No
+920,34,30-39,Sales,Sales Rep,Asia-Pacific,5910,No,3,2,3,No
+921,29,<30,R&D,Lab Technician,Latin America,10060,No,3,2,2,Yes
+922,48,40-49,R&D,Research Scientist,North America,5700,No,6,1,4,No
+923,31,30-39,Sales,Sales Rep,Latin America,10370,Yes,4,2,1,No
+924,60,50+,R&D,Lab Technician,Asia-Pacific,7250,No,13,1,3,No
+925,37,30-39,Sales,Sales Rep,Asia-Pacific,4750,No,5,2,4,Yes
+926,47,40-49,R&D,Engineer,Latin America,2710,No,2,4,4,Yes
+927,27,<30,R&D,Engineer,North America,3090,Yes,3,3,3,No
+928,38,30-39,R&D,Engineer,Asia-Pacific,1800,No,8,2,3,Yes
+929,48,40-49,Sales,Sales Executive,Asia-Pacific,5700,Yes,14,4,3,No
+930,42,40-49,R&D,Research Scientist,Latin America,8450,Yes,3,4,3,No
+931,33,30-39,R&D,Engineer,Europe,5680,No,4,4,4,No
+932,60,50+,R&D,Lab Technician,Latin America,6700,No,16,1,1,No
+933,45,40-49,Sales,Sales Executive,Latin America,4250,No,11,1,1,No
+934,36,30-39,R&D,Lab Technician,Latin America,4320,Yes,5,3,3,No
+935,33,30-39,Sales,Sales Executive,Europe,2060,No,4,2,1,No
+936,36,30-39,R&D,Research Scientist,Europe,2810,No,9,4,4,No
+937,51,50+,Sales,Sales Rep,Latin America,12520,Yes,9,4,3,No
+938,31,30-39,R&D,Lab Technician,Asia-Pacific,6290,No,6,1,1,Yes
+939,39,30-39,R&D,Research Scientist,Europe,4000,No,6,3,3,Yes
+940,31,30-39,HR,HR Manager,Latin America,7410,Yes,2,4,4,Yes
+941,50,50+,Sales,Sales Executive,Europe,11270,No,8,1,1,No
+942,37,30-39,R&D,Research Scientist,Asia-Pacific,4540,Yes,8,4,3,No
+943,46,40-49,R&D,Engineer,North America,6730,No,8,2,3,No
+944,44,40-49,R&D,Lab Technician,North America,3560,No,11,2,1,Yes
+945,33,30-39,R&D,Lab Technician,North America,1800,Yes,6,1,1,Yes
+946,45,40-49,Sales,Sales Executive,North America,10510,No,8,4,1,No
+947,47,40-49,Sales,Sales Executive,North America,16010,No,13,2,4,No
+948,28,<30,R&D,Research Scientist,Europe,3460,Yes,2,4,2,Yes
+949,45,40-49,R&D,Lab Technician,Asia-Pacific,2690,Yes,4,1,3,Yes
+950,60,50+,Sales,Sales Rep,Latin America,11960,No,19,2,1,No
+951,36,30-39,HR,HR Manager,Europe,8860,Yes,1,1,4,No
+952,44,40-49,R&D,Engineer,North America,8070,No,2,4,1,Yes
+953,26,<30,R&D,Research Scientist,Europe,9040,Yes,1,3,1,Yes
+954,43,40-49,R&D,Engineer,Europe,5860,No,6,1,2,Yes
+955,33,30-39,HR,HR Specialist,North America,6560,No,1,1,4,No
+956,45,40-49,Sales,Sales Executive,Latin America,8970,Yes,4,4,4,No
+957,38,30-39,HR,HR Specialist,Asia-Pacific,5470,No,8,1,4,No
+958,28,<30,R&D,Lab Technician,North America,6630,No,1,4,2,No
+959,48,40-49,R&D,Research Scientist,Latin America,6570,No,8,4,1,No
+960,36,30-39,R&D,Engineer,Europe,7290,No,6,3,4,No
+961,29,<30,R&D,Research Scientist,North America,5900,No,5,3,3,No
+962,39,30-39,R&D,Engineer,Europe,1800,Yes,4,3,1,Yes
+963,30,30-39,R&D,Research Scientist,North America,5800,No,1,1,1,No
+964,42,40-49,Sales,Sales Executive,North America,2930,No,11,2,2,Yes
+965,38,30-39,R&D,Engineer,Europe,4070,No,3,1,1,No
+966,35,30-39,R&D,Research Scientist,Asia-Pacific,1800,Yes,7,1,4,No
+967,44,40-49,R&D,Research Scientist,Latin America,8940,No,3,1,4,No
+968,27,<30,R&D,Lab Technician,Europe,4440,No,0,2,2,No
+969,47,40-49,R&D,Lab Technician,North America,6090,Yes,14,4,2,No
+970,20,<30,R&D,Lab Technician,Europe,7900,Yes,0,1,4,Yes
+971,53,50+,R&D,Lab Technician,Europe,9480,No,3,4,3,No
+972,40,40-49,Sales,Sales Rep,Europe,5900,Yes,4,3,3,No
+973,36,30-39,R&D,Lab Technician,North America,1800,No,8,4,1,Yes
+974,32,30-39,Sales,Sales Rep,North America,7460,No,1,3,3,Yes
+975,43,40-49,Sales,Sales Rep,North America,6040,No,12,3,2,Yes
+976,37,30-39,Sales,Sales Rep,Latin America,5240,No,2,3,4,No
+977,37,30-39,Sales,Sales Rep,North America,8100,No,6,3,3,No
+978,48,40-49,R&D,Engineer,North America,5540,No,4,2,4,No
+979,34,30-39,Sales,Sales Executive,Latin America,5710,No,5,4,2,No
+980,36,30-39,Sales,Sales Executive,Europe,8410,Yes,2,2,1,Yes
+981,42,40-49,R&D,Engineer,North America,8130,No,2,2,3,No
+982,48,40-49,R&D,Lab Technician,Asia-Pacific,5580,Yes,7,3,3,No
+983,37,30-39,R&D,Lab Technician,North America,9970,Yes,7,2,1,No
+984,40,40-49,Sales,Sales Rep,Europe,9450,No,7,2,4,No
+985,39,30-39,R&D,Engineer,North America,11290,No,7,4,2,No
+986,45,40-49,R&D,Research Scientist,Asia-Pacific,6770,No,8,1,2,No
+987,52,50+,R&D,Lab Technician,Latin America,8100,Yes,12,1,2,Yes
+988,30,30-39,R&D,Research Scientist,Europe,8300,No,1,4,1,No
+989,37,30-39,R&D,Research Scientist,Asia-Pacific,7340,No,5,1,1,No
+990,38,30-39,Sales,Sales Rep,Asia-Pacific,6650,No,2,1,4,No
+991,44,40-49,R&D,Research Scientist,Europe,6560,No,3,1,1,No
+992,52,50+,R&D,Research Scientist,Europe,6760,No,6,1,3,Yes
+993,38,30-39,R&D,Research Scientist,Asia-Pacific,4600,No,1,3,4,No
+994,40,40-49,R&D,Research Scientist,Europe,4790,No,3,1,4,No
+995,49,40-49,Sales,Sales Executive,Asia-Pacific,8340,Yes,8,3,3,Yes
+996,27,<30,Sales,Sales Rep,North America,4510,No,0,4,3,Yes
+997,31,30-39,R&D,Engineer,Europe,1990,No,6,2,2,Yes
+998,34,30-39,HR,HR Manager,North America,6070,No,7,4,1,Yes
+999,38,30-39,HR,HR Specialist,Europe,10600,No,8,4,1,Yes
+1000,40,40-49,R&D,Engineer,Asia-Pacific,10010,Yes,4,1,4,No
+1001,34,30-39,R&D,Research Scientist,Asia-Pacific,1800,Yes,6,3,2,Yes
+1002,54,50+,Sales,Sales Executive,Latin America,5540,No,5,3,1,No
+1003,32,30-39,Sales,Sales Executive,North America,7770,No,7,1,2,No
+1004,37,30-39,R&D,Research Scientist,Latin America,6410,Yes,8,4,4,No
+1005,48,40-49,R&D,Research Scientist,Europe,7380,No,8,2,2,No
+1006,45,40-49,R&D,Engineer,Latin America,6590,No,8,4,2,No
+1007,38,30-39,Sales,Sales Rep,North America,6450,No,5,3,2,No
+1008,42,40-49,R&D,Engineer,Asia-Pacific,4020,No,11,3,2,No
+1009,46,40-49,HR,HR Manager,Latin America,10090,Yes,10,3,2,Yes
+1010,38,30-39,Sales,Sales Executive,Asia-Pacific,3590,No,2,4,1,Yes
+1011,44,40-49,R&D,Lab Technician,Europe,6470,No,2,1,2,No
+1012,30,30-39,R&D,Research Scientist,Asia-Pacific,9560,No,5,2,4,No
+1013,39,30-39,HR,HR Specialist,Latin America,9210,No,4,4,4,No
+1014,23,<30,Sales,Sales Rep,Asia-Pacific,4930,No,1,1,4,No
+1015,30,30-39,R&D,Engineer,Asia-Pacific,5560,Yes,4,2,2,No
+1016,28,<30,R&D,Lab Technician,Latin America,3850,No,2,1,1,No
+1017,50,50+,R&D,Engineer,Latin America,6090,No,14,1,1,Yes
+1018,34,30-39,Sales,Sales Rep,Europe,5330,No,6,2,4,No
+1019,41,40-49,R&D,Research Scientist,Europe,10050,No,2,1,2,No
+1020,30,30-39,R&D,Lab Technician,Europe,4460,No,4,1,1,Yes
+1021,36,30-39,R&D,Engineer,North America,7600,No,9,1,3,No
+1022,36,30-39,R&D,Engineer,Latin America,7250,No,7,4,4,No
+1023,30,30-39,R&D,Engineer,North America,6640,Yes,2,1,1,No
+1024,46,40-49,R&D,Research Scientist,North America,6310,No,5,4,3,Yes
+1025,23,<30,R&D,Engineer,Asia-Pacific,6870,Yes,2,3,4,Yes
+1026,44,40-49,R&D,Engineer,North America,7280,Yes,11,4,3,Yes
+1027,60,50+,HR,HR Manager,Asia-Pacific,8560,No,8,3,4,No
+1028,31,30-39,Sales,Sales Rep,Latin America,4470,No,4,3,3,Yes
+1029,38,30-39,Sales,Sales Executive,Asia-Pacific,1800,No,4,1,4,No
+1030,24,<30,HR,HR Specialist,North America,6960,No,2,2,4,No
+1031,38,30-39,Sales,Sales Executive,Asia-Pacific,8290,Yes,2,1,2,Yes
+1032,22,<30,Sales,Sales Rep,Latin America,3590,No,0,2,2,No
+1033,44,40-49,R&D,Lab Technician,Latin America,6420,No,14,4,4,No
+1034,34,30-39,Sales,Sales Rep,Latin America,6720,Yes,2,3,4,No
+1035,21,<30,R&D,Engineer,North America,2290,No,0,3,4,Yes
+1036,26,<30,R&D,Lab Technician,North America,7100,Yes,3,1,4,Yes
+1037,23,<30,Sales,Sales Executive,Asia-Pacific,6840,No,2,1,1,Yes
+1038,35,30-39,Sales,Sales Rep,Latin America,8280,Yes,6,4,2,Yes
+1039,46,40-49,Sales,Sales Executive,Asia-Pacific,9450,Yes,4,4,2,Yes
+1040,34,30-39,HR,HR Specialist,Europe,1800,No,3,2,3,No
+1041,27,<30,R&D,Engineer,North America,6710,No,1,3,2,No
+1042,30,30-39,R&D,Engineer,Europe,4500,No,1,4,3,No
+1043,39,30-39,R&D,Engineer,Latin America,9320,Yes,1,2,1,No
+1044,19,<30,HR,HR Specialist,Latin America,7380,No,0,1,3,Yes
+1045,43,40-49,R&D,Engineer,Latin America,8920,No,8,3,1,No
+1046,41,40-49,R&D,Lab Technician,Latin America,6410,Yes,3,2,3,Yes
+1047,19,<30,Sales,Sales Rep,Asia-Pacific,11890,No,0,2,1,No
+1048,48,40-49,R&D,Lab Technician,Latin America,7130,No,4,4,1,Yes
+1049,23,<30,R&D,Engineer,Latin America,2320,Yes,0,1,4,Yes
+1050,36,30-39,Sales,Sales Rep,Europe,8700,No,2,4,4,No
+1051,48,40-49,Sales,Sales Executive,Asia-Pacific,3530,Yes,5,4,1,Yes
+1052,22,<30,Sales,Sales Rep,Latin America,9900,No,0,3,3,Yes
+1053,21,<30,Sales,Sales Rep,North America,7470,No,0,1,3,No
+1054,27,<30,R&D,Engineer,Asia-Pacific,8820,No,1,3,1,No
+1055,27,<30,R&D,Research Scientist,North America,8090,No,0,1,1,Yes
+1056,36,30-39,Sales,Sales Rep,Latin America,7250,No,5,4,3,No
+1057,33,30-39,Sales,Sales Rep,Europe,2540,No,1,4,2,No
+1058,33,30-39,R&D,Engineer,Asia-Pacific,4400,No,5,3,1,No
+1059,33,30-39,R&D,Research Scientist,Latin America,7400,No,7,1,2,No
+1060,36,30-39,R&D,Engineer,North America,5700,No,3,2,2,No
+1061,30,30-39,R&D,Research Scientist,Asia-Pacific,6640,Yes,2,4,4,No
+1062,40,40-49,Sales,Sales Executive,Latin America,4820,Yes,9,1,4,Yes
+1063,37,30-39,R&D,Engineer,Latin America,4280,No,6,2,3,No
+1064,28,<30,R&D,Research Scientist,Latin America,6270,No,1,2,1,No
+1065,54,50+,R&D,Research Scientist,Latin America,9750,Yes,19,2,4,Yes
+1066,26,<30,Sales,Sales Rep,Latin America,5330,No,0,4,3,No
+1067,44,40-49,Sales,Sales Executive,Europe,4420,No,9,4,1,Yes
+1068,31,30-39,R&D,Research Scientist,Asia-Pacific,1800,Yes,2,1,2,Yes
+1069,41,40-49,R&D,Lab Technician,North America,11880,Yes,10,1,4,No
+1070,42,40-49,Sales,Sales Rep,North America,3810,No,3,4,1,No
+1071,45,40-49,R&D,Research Scientist,North America,4770,No,9,2,4,Yes
+1072,50,50+,HR,HR Manager,Latin America,5590,No,9,4,1,No
+1073,30,30-39,Sales,Sales Executive,Latin America,7970,Yes,3,1,2,No
+1074,60,50+,Sales,Sales Rep,Europe,6410,No,12,1,4,No
+1075,41,40-49,Sales,Sales Rep,North America,8060,No,6,1,3,No
+1076,30,30-39,R&D,Research Scientist,North America,6420,No,2,1,2,No
+1077,25,<30,R&D,Engineer,Latin America,2260,No,2,3,2,No
+1078,59,50+,R&D,Engineer,North America,8670,No,5,1,2,No
+1079,53,50+,Sales,Sales Executive,Europe,4570,No,4,1,3,No
+1080,37,30-39,Sales,Sales Rep,North America,5860,No,6,3,4,No
+1081,45,40-49,HR,HR Manager,Asia-Pacific,8900,No,8,4,4,No
+1082,50,50+,Sales,Sales Rep,Latin America,6830,No,11,2,1,Yes
+1083,39,30-39,Sales,Sales Executive,Latin America,4100,Yes,6,4,1,No
+1084,34,30-39,R&D,Engineer,North America,4910,No,5,3,4,No
+1085,37,30-39,Sales,Sales Rep,Latin America,5780,Yes,3,2,2,No
+1086,45,40-49,Sales,Sales Rep,Latin America,7840,No,15,3,3,No
+1087,38,30-39,R&D,Lab Technician,Asia-Pacific,1800,No,3,4,4,Yes
+1088,26,<30,R&D,Research Scientist,North America,1800,Yes,1,2,1,Yes
+1089,45,40-49,R&D,Research Scientist,Asia-Pacific,8220,Yes,5,2,3,No
+1090,22,<30,R&D,Research Scientist,Asia-Pacific,4580,No,0,3,3,No
+1091,31,30-39,R&D,Engineer,North America,5710,Yes,7,1,4,Yes
+1092,49,40-49,Sales,Sales Rep,North America,7850,No,15,3,4,No
+1093,40,40-49,R&D,Engineer,North America,6060,No,12,1,3,No
+1094,40,40-49,R&D,Lab Technician,Asia-Pacific,5310,No,6,3,3,No
+1095,39,30-39,Sales,Sales Executive,Europe,6670,Yes,10,1,4,Yes
+1096,47,40-49,R&D,Research Scientist,North America,8820,No,13,1,1,No
+1097,37,30-39,Sales,Sales Rep,North America,7070,No,3,3,4,No
+1098,20,<30,R&D,Research Scientist,Latin America,4720,No,0,2,2,No
+1099,40,40-49,Sales,Sales Rep,Latin America,3780,No,2,4,2,No
+1100,19,<30,Sales,Sales Executive,North America,5180,Yes,0,1,1,Yes
+1101,19,<30,R&D,Engineer,Latin America,1800,No,0,4,3,Yes
+1102,52,50+,R&D,Lab Technician,Europe,5810,Yes,16,3,1,No
+1103,47,40-49,R&D,Research Scientist,North America,7470,No,11,4,4,No
+1104,33,30-39,R&D,Engineer,Asia-Pacific,6130,Yes,5,4,3,Yes
+1105,37,30-39,R&D,Research Scientist,North America,9000,No,3,4,4,No
+1106,38,30-39,R&D,Lab Technician,Europe,8540,No,9,2,3,Yes
+1107,47,40-49,R&D,Research Scientist,Europe,8340,No,5,2,4,No
+1108,31,30-39,R&D,Research Scientist,North America,4810,No,1,1,1,No
+1109,30,30-39,HR,HR Specialist,Europe,5520,No,2,3,2,No
+1110,32,30-39,Sales,Sales Rep,Europe,5110,No,5,2,2,No
+1111,39,30-39,R&D,Engineer,North America,10820,Yes,9,1,4,Yes
+1112,40,40-49,Sales,Sales Executive,Latin America,7640,No,2,2,3,No
+1113,34,30-39,Sales,Sales Rep,Latin America,4250,No,8,2,4,No
+1114,45,40-49,HR,HR Specialist,North America,4740,No,4,2,1,No
+1115,28,<30,Sales,Sales Rep,North America,8570,Yes,4,2,2,Yes
+1116,37,30-39,R&D,Lab Technician,North America,3960,Yes,6,4,3,Yes
+1117,31,30-39,HR,HR Specialist,Asia-Pacific,6600,No,6,2,3,No
+1118,28,<30,R&D,Lab Technician,Latin America,5840,No,1,4,1,No
+1119,49,40-49,R&D,Lab Technician,Latin America,10010,No,11,3,4,Yes
+1120,35,30-39,R&D,Research Scientist,Latin America,3770,No,5,3,1,No
+1121,28,<30,HR,HR Specialist,Asia-Pacific,6570,Yes,1,4,3,Yes
+1122,38,30-39,HR,HR Specialist,Asia-Pacific,6810,No,8,3,3,No
+1123,28,<30,Sales,Sales Rep,Europe,7440,No,2,3,4,Yes
+1124,43,40-49,Sales,Sales Rep,Europe,10230,No,12,1,2,No
+1125,45,40-49,Sales,Sales Executive,North America,7190,Yes,13,3,2,No
+1126,47,40-49,Sales,Sales Executive,Latin America,6530,No,5,3,3,No
+1127,28,<30,R&D,Lab Technician,Latin America,7650,Yes,2,3,3,No
+1128,36,30-39,R&D,Lab Technician,Europe,2500,No,3,3,3,No
+1129,55,50+,Sales,Sales Executive,North America,8310,Yes,16,1,1,Yes
+1130,36,30-39,Sales,Sales Executive,North America,3600,No,8,4,4,No
+1131,49,40-49,Sales,Sales Executive,North America,4190,No,14,4,4,Yes
+1132,52,50+,R&D,Research Scientist,Europe,3500,Yes,2,2,1,Yes
+1133,25,<30,R&D,Research Scientist,Latin America,1800,Yes,2,4,4,Yes
+1134,49,40-49,R&D,Engineer,Asia-Pacific,9420,No,2,2,2,No
+1135,45,40-49,R&D,Engineer,Latin America,9170,No,15,1,1,No
+1136,46,40-49,HR,HR Manager,Asia-Pacific,7290,No,14,4,1,No
+1137,53,50+,R&D,Lab Technician,Europe,10310,Yes,8,1,1,Yes
+1138,42,40-49,Sales,Sales Rep,Latin America,6740,Yes,5,1,4,No
+1139,38,30-39,R&D,Engineer,Europe,5040,No,2,3,4,No
+1140,43,40-49,R&D,Research Scientist,North America,3990,No,8,4,2,No
+1141,35,30-39,HR,HR Specialist,Asia-Pacific,8010,No,6,3,2,No
+1142,42,40-49,R&D,Engineer,Latin America,8760,No,10,3,3,No
+1143,19,<30,Sales,Sales Executive,Asia-Pacific,7840,No,0,1,2,No
+1144,54,50+,R&D,Engineer,Asia-Pacific,5700,Yes,12,4,4,No
+1145,33,30-39,R&D,Lab Technician,Europe,5140,Yes,6,4,4,Yes
+1146,43,40-49,R&D,Lab Technician,Asia-Pacific,3300,No,11,4,3,No
+1147,41,40-49,R&D,Lab Technician,North America,9530,No,1,1,2,No
+1148,39,30-39,R&D,Research Scientist,Europe,8230,Yes,6,2,1,Yes
+1149,39,30-39,R&D,Research Scientist,Asia-Pacific,7730,No,4,1,4,No
+1150,38,30-39,R&D,Engineer,Europe,6280,No,6,4,2,No
+1151,23,<30,Sales,Sales Executive,Asia-Pacific,4600,Yes,1,1,2,Yes
+1152,33,30-39,Sales,Sales Rep,Europe,4940,No,3,3,4,No
+1153,49,40-49,R&D,Research Scientist,Europe,10120,No,17,4,3,No
+1154,28,<30,R&D,Lab Technician,Europe,3810,No,3,3,2,Yes
+1155,28,<30,R&D,Research Scientist,Asia-Pacific,7720,No,2,2,3,No
+1156,57,50+,R&D,Research Scientist,Europe,8780,No,21,1,3,No
+1157,49,40-49,R&D,Lab Technician,Latin America,4740,No,7,1,4,Yes
+1158,52,50+,R&D,Engineer,Asia-Pacific,3880,No,15,2,2,Yes
+1159,38,30-39,HR,HR Specialist,North America,4330,No,8,2,3,Yes
+1160,40,40-49,R&D,Research Scientist,Latin America,6420,No,3,3,3,No
+1161,45,40-49,R&D,Lab Technician,Latin America,3650,Yes,6,4,3,Yes
+1162,43,40-49,HR,HR Specialist,North America,8400,No,4,1,4,No
+1163,37,30-39,R&D,Lab Technician,Europe,9170,No,10,3,4,No
+1164,24,<30,R&D,Lab Technician,Europe,6480,No,1,2,3,No
+1165,31,30-39,Sales,Sales Executive,North America,1800,No,6,1,3,Yes
+1166,24,<30,Sales,Sales Rep,Asia-Pacific,1800,Yes,2,2,4,Yes
+1167,52,50+,HR,HR Specialist,Latin America,9830,No,15,4,4,No
+1168,34,30-39,Sales,Sales Executive,Latin America,9810,Yes,2,1,1,No
+1169,36,30-39,Sales,Sales Executive,Europe,5130,No,4,1,3,No
+1170,40,40-49,Sales,Sales Rep,Asia-Pacific,7860,No,10,1,4,No
+1171,38,30-39,R&D,Engineer,Latin America,5650,No,8,4,3,No
+1172,42,40-49,Sales,Sales Executive,Asia-Pacific,5060,No,12,2,1,Yes
+1173,32,30-39,R&D,Research Scientist,Europe,8360,No,6,4,2,No
+1174,24,<30,Sales,Sales Rep,Asia-Pacific,3660,No,2,1,3,No
+1175,54,50+,R&D,Lab Technician,Asia-Pacific,9970,Yes,14,4,2,No
+1176,31,30-39,HR,HR Specialist,Europe,10140,No,2,2,4,No
+1177,33,30-39,R&D,Engineer,North America,5580,No,2,3,4,Yes
+1178,30,30-39,R&D,Lab Technician,Latin America,10440,No,4,2,3,No
+1179,32,30-39,R&D,Lab Technician,Asia-Pacific,2420,No,5,1,2,Yes
+1180,38,30-39,R&D,Engineer,Latin America,8710,No,9,2,1,Yes
+1181,44,40-49,R&D,Lab Technician,Asia-Pacific,6910,No,5,4,4,Yes
+1182,28,<30,Sales,Sales Executive,Asia-Pacific,12050,No,1,1,4,No
+1183,40,40-49,Sales,Sales Executive,Latin America,6630,No,11,2,1,Yes
+1184,31,30-39,R&D,Research Scientist,North America,3660,No,3,2,2,No
+1185,48,40-49,R&D,Lab Technician,Latin America,11430,No,9,2,4,No
+1186,26,<30,Sales,Sales Rep,Europe,1800,Yes,2,3,1,No
+1187,38,30-39,R&D,Engineer,North America,7480,Yes,1,2,3,No
+1188,44,40-49,R&D,Lab Technician,Europe,4910,Yes,4,1,4,No
+1189,25,<30,Sales,Sales Executive,Latin America,8740,No,3,2,4,No
+1190,38,30-39,R&D,Research Scientist,North America,6070,No,2,2,2,No
+1191,39,30-39,Sales,Sales Rep,Asia-Pacific,8650,Yes,11,4,2,No
+1192,30,30-39,Sales,Sales Executive,Europe,5520,No,6,2,1,Yes
+1193,35,30-39,Sales,Sales Rep,Europe,3220,No,1,2,3,No
+1194,46,40-49,Sales,Sales Executive,Latin America,1800,Yes,9,3,4,Yes
+1195,40,40-49,R&D,Research Scientist,Latin America,11140,No,4,4,4,No
+1196,33,30-39,R&D,Engineer,Europe,6490,No,5,1,3,No
+1197,35,30-39,Sales,Sales Executive,Asia-Pacific,3090,Yes,8,1,2,Yes
+1198,41,40-49,R&D,Engineer,Europe,5800,No,5,1,1,No
+1199,49,40-49,Sales,Sales Executive,Latin America,9880,No,4,4,1,No
+1200,44,40-49,R&D,Engineer,Europe,3020,No,14,4,1,No
